@@ -1,3 +1,17 @@
 .social {
     float: right;
 }
+
+#call_header {
+    font-family: "Helvetica Neue LT Pro" "Helvetica Neue" Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #252525;
+    text-align: center;
+}
+
+#call_text {
+    font-family: "Helvetica Neue LT Pro" "Helvetica Neue" Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #363636;
+    text-align: center;
+}
