@@ -4,26 +4,61 @@
     <meta charset="UTF-8">
     <meta name="discription" content="Gdańsk i wydarzenia">
     <meta name="author" content="Krzykum">
+    <meta name="keywords" content="Gdańsk wydarzenia events">
     <title>Gdański kalendarz wydarzeń</title>
     <link href="../CSS/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <section id="social"></section>
+    <section id="social">
 
-    <section id="zajawka"></section>
+        <a href="https://pl-pl.facebook.com/GdanskStrefa/" target="_blank"> <img src="../images/sm_fb.svg" alt="facebook" /></a>
+        <a href="https://plus.google.com/+gdansk/posts" target="_blank"><img src="../images/sm_google.svg" alt="google+"/></a>
+        <a href="https://www.instagram.com/gdansk_official/" target="_blank"><img src="../images/sm_instagram.svg" alt="instagram"/></a>
+        <a href="https://twitter.com/gdansk" target="_blank"><img src="../images/sm_twitter.svg" alt="twitter"/></a>
 
-    <section id="funkcje"></section>
+    </section>
 
-<!- Co, gdzie, kiedy, po ile. Sekcje: imprezy dla dzieci, muzyka, sport, kino, teatr. Opinie.->
+    <section id="zajawka">
+        <div>Tutaj znajdziesz aktualne wydarzenia Gdańska, w których możesz uczestniczyć.</div>
+        <div>
+            <img src="../IMAGES/gdansk-neptun.jpg" alt="Zdjęcie Gdańska" />
+            <img src="../IMAGES/gdansk-motlawa.jpg" alt="Zdjęcie Gdańska" />
+        </div>
 
-    <h1>Z nami będziesz na bieżąco!</h1>
+    </section>
+
+    <section id="funkcje">
+        <!- Co, gdzie, kiedy, po ile. Sekcje: imprezy dla dzieci, muzyka, sport, kino, teatr. Opinie.->
+
+        <h1>Z nami będziesz na bieżąco!</h1>
         <p>Dowiesz się, jakie wydarzenia kulturalne i sportowe odbędą się <br>w najbliższym czasie w naszym mieście. </p>
-    <h1>Twoja opinia jest dla nas ważna! </h1>
+        <h1>Twoja opinia jest dla nas ważna! </h1>
         <p>Poleć innym, co warto zobaczyć, w czym warto wziąć udział. </p>
-    <h1>Zabierz swoje pociechy od komputera! </h1>
+        <h1>Zabierz swoje pociechy od komputera! </h1>
         <p>Podpowiemy Tobie, jak miło spędzić czas wspólnie z dziećmi.</p>
 
+    </section>
 
-    <section id="call"></section>
+
+    <section id="call_to_action">
+
+        <header>
+            <h1 id="call_header">Bądźmy w kontakcie</h1>
+            <h2 id="call_text">Jeśli chcesz byśmy informowali Cię<br /> o wszystkich krokach milowych oraz masz<br /> ochotę być świadkiem wielkiej premiery naszej<br /> aplikacji to zostaw nam swoje dane!<br /></h2>
+        </header>
+
+
+        <section id="form">
+            <form>
+                <input type="text" required name="firstname" placeholder="imię" /><br />
+                <input type="text" required name="surname" placeholder="nazwisko" /><br />
+                <input type="text" required name="phone" placeholder="numer telefonu" /><br />
+                <input type="text" required name="mail" placeholder="e-mail" /><br />
+                <input type="checkbox" required name="accept" /> Zapoznałem się i akceptuję regulamin serwisu. <br />
+                <input type="submit" value="ZAPISZ SIĘ!" /><br />
+            </form>
+        </section>
+    </section>
+
 </body>
 </html>
