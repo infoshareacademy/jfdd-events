@@ -97,3 +97,21 @@ input {
 
 
 /* koniec CSS koleżanki */
+
+#checkbox {
+    text-align: left;
+}
+
+/*CSS FUNKCJE*/
+h1 {
+    font-family: Verdana, sans-serif;
+    color: #62acff;
+    font-size: large;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center
+}
+
