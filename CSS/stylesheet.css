@@ -94,16 +94,15 @@ input {
 
 
 
-/* CSS koleżanki */
 
-
-/* koniec CSS koleżanki */
 
 #checkbox {
     text-align: left;
 }
 
-/*CSS FUNKCJE*/
+/*CSS MONIKI*/
+
+
 h1 {
     font-family: Verdana, sans-serif;
     color: #62acff;
@@ -116,3 +115,28 @@ p {
     text-align: center
 }
 
+.left {
+    display:inline-block;
+    padding:1em;
+    background-color: plum;
+    width:150px;
+    height:150px;
+}
+
+.center{
+    display:inline-block;
+    padding:1em;
+    background-color:yellow;
+    width:150px;
+    height:150px;
+}
+
+.right{
+    display:inline-block;
+    padding:1em;
+    background-color: #88ffb9;
+    width:150px;
+    height:150px;
+}
+
+/*KONIEC CSS MONIKI*/
