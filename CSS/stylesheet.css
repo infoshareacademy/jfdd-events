@@ -1,21 +1,80 @@
+/* CSS Michala */
+
 #social {
     float: right;
     margin-right: auto;
 }
 
+/* koniec CSS Michala */
+
+
+
+/* CSS Kuby */
+
 #call_header {
     font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1.5em;
-    color: #252525;
+    font-size: 2.5em;
+    color: #252525; /* dark grey */
     text-align: center;
 }
 
 #call_text {
     font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1.2em;
-    color: #535353;
+    font-size: 1.5em;
+    color: #535353; /* light grey */
     text-align: center;
 }
+
+form {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+input {
+    margin-top: 15px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+
+#button {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 35px;
+    padding: 0;
+    height: 70px;
+    width: 300px;
+    font-size: 1.5em;
+    font-weight: 500;
+    background-color: #EBC844; /* yellow */
+    color: white;
+    border: 1px outset #535353; /* grey */
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.16), 0 17px 30px 0 rgba(0,0,0,0.15);
+}
+
+#button:hover {
+    background-color: #EF8B2C; /* orange */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 20px 50px 0 rgba(0,0,0,0.3);
+}
+
+#checkbox {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    position: relative;
+    top: 5px;
+}
+
+/* koniec CSS Kuby */
+
+
+
+/* CSS Krzysztofa */
 
 #zajawka img {
     height: 120px;
@@ -30,29 +89,14 @@
     display: inline-block;
 }
 
-form {
-    text-align: center;
-}
+/* koniec CSS Krzysztofa */
 
-input {
-    margin: 5px;
-    height: 30px;
-    width: 300px;
-    border-radius: 3px;
-    font-size: 0.8em;
-}
 
-#button {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    margin: 5px;
-    height: 50px;
-    width: 200px;
-    border-radius: 3px;
-    font-size: 1.2em;
-    background-color: #379dff;
-    color: white;
-    border: none;
-}
+
+/* CSS koleżanki */
+
+
+/* koniec CSS koleżanki */
 
 #checkbox {
     text-align: left;
@@ -70,3 +114,4 @@ h1 {
 p {
     text-align: center
 }
+
