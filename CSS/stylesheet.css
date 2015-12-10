@@ -2,7 +2,11 @@
 
 #social {
     float: right;
-    margin-right: auto;
+    padding: 15px 30px 10px;
+}
+
+#social a {
+    margin-right: 13px;
 }
 
 /* koniec CSS Michala */
@@ -10,9 +14,51 @@
 
 
 /* CSS Kuby */
+.top {
+    background-color: #e3e3e3;
+    display: inline-block;
+    width: 100%;
+}
+
+#menulogo {
+    float: left;
+}
+
+#menulogo img {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+#menubar {
+    float: left;
+}
+
+ul {
+    font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, Lato, sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 1.4em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
 
 #call_header {
-    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, Lato, sans-serif;
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;
@@ -78,17 +124,23 @@ input {
 /* CSS Krzysztofa */
 
 #zajawka img {
-    height: 120px;
-    width: 160px;
+    position: absolute;
 }
 #zajawka div {
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #6bfaff;
     text-align: center;
-    font-family: SansSerif, cursive;
+    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
-    line-height: 120px;
-    height: 120px;
-    display: inline-block;
+    font-weight: bolder;
+    }
+
+.clear {
+    clear: both;
 }
+
 
 /* koniec CSS Krzysztofa */
 
