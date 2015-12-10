@@ -77,17 +77,23 @@ input {
 /* CSS Krzysztofa */
 
 #zajawka img {
-    height: 120px;
-    width: 160px;
+    position: absolute;
 }
 #zajawka div {
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #6bfaff;
     text-align: center;
-    font-family: SansSerif, cursive;
-    font-size: 1.5em;
-    line-height: 120px;
-    height: 120px;
-    display: inline-block;
+    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    }
+
+.clear {
+    clear: both;
 }
+
 
 /* koniec CSS Krzysztofa */
 
