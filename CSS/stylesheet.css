@@ -18,6 +18,7 @@
     background-color: #e3e3e3;
     display: inline-block;
     width: 100%;
+    position: fixed;
 }
 
 #menulogo {
@@ -124,7 +125,7 @@ input {
 /* CSS Krzysztofa */
 
 #zajawka div {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 200px;
     background: url(../IMAGES/panorama_gdanska.jpg) no-repeat center;
     color: #6bfaff;
