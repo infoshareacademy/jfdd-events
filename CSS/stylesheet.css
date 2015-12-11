@@ -124,11 +124,9 @@ input {
 /* CSS Krzysztofa */
 
 #zajawka div {
-    position: absolute;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    width: 100%;
-    background-image: url(../IMAGES/panorama_gdanska.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: url(../IMAGES/panorama_gdanska.jpg) no-repeat center;
     color: #6bfaff;
     text-align: center;
     font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
