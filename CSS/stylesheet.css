@@ -193,6 +193,7 @@ p {
     margin-top: 20px;
     border-top-style: inset;
     border-top-color: #f7f7f7;
+    border-top-width: thin;
 }
 .stopka {
     margin: auto;
