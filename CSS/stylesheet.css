@@ -192,3 +192,15 @@ p {
 }
 
 /*KONIEC CSS MONIKI*/
+
+.footer {
+    background-color: #dddddd;
+    height: 80px;
+    margin-top: 20px;
+}
+.stopka {
+    margin: auto;
+    padding: 20px;
+    color: #414141;
+    font-family: Lato, serif;
+}
