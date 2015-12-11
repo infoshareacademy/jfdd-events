@@ -189,9 +189,11 @@ p {
 /*KONIEC CSS MONIKI*/
 
 .footer {
-    background-color: #dddddd;
+    background-color: #ededed;
     height: 60px;
     margin-top: 20px;
+    border-top-style: inset;
+    border-top-color: #f7f7f7;
 }
 .stopka {
     margin: auto;
