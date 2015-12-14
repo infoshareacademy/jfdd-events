@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    background-color: #e2e4e6;
+}
 /* CSS Michala */
 
 #social {
@@ -127,17 +131,20 @@ input {
 
 
 /* CSS Krzysztofa */
-
-#zajawka div {
-    padding-top: 150px;
-    padding-bottom: 200px;
-    background: url(../IMAGES/panorama_gdanska.jpg) no-repeat center;
-    color: #6bfaff;
-    text-align: center;
-    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
+#zajawka p {
+    text-align: right;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
-    font-weight: bolder;
-    }
+}
+#zajawka div {
+    background: url(../IMAGES/panorama_gdanska.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+    width:100%;
+}
 
 
 
