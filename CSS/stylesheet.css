@@ -150,6 +150,20 @@ input {
 /*CSS MONIKI*/
 
 
+#funkcje {
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%
+
+}
+
+.graphics img {
+    width:50px;
+    height:50px;
+}
+
 h1 {
     font-family: Verdana, sans-serif;
     color: #62acff;
@@ -163,27 +177,36 @@ p {
 }
 
 .left {
+    style:"color: #0000ff; font-weight: bold;"
     display:inline-block;
+    float: right;
     padding:1em;
     background-color: plum;
-    width:150px;
-    height:150px;
+    width:20%;
+    height:20%;
 }
 
 .center{
     display:inline-block;
+    float:left;
+/*vertical-align: top;*/
     padding:1em;
     background-color:yellow;
-    width:150px;
-    height:150px;
+    width:20%;
+    height:20%;
+    margin:auto;
+
+    /*position:relative;*/
+    /*left:30%;*/
 }
 
 .right{
+    float:right;
     display:inline-block;
     padding:1em;
     background-color: #88ffb9;
-    width:150px;
-    height:150px;
+    width:20%;
+    height:20%;
 }
 
 /*KONIEC CSS MONIKI*/
