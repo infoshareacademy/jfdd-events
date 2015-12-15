@@ -1,16 +1,20 @@
 body {
     margin: 0;
-    background-color: #e2e4e6;
+    background-color: #fbfdff;
 }
 /* CSS Michala */
 
 #social {
     float: right;
-    padding: 15px 30px 10px;
+    padding: 19px;
+    display: flex;
 }
 
 #social a {
     margin-right: 13px;
+}
+.social_icon {
+    padding-right: 25px;
 }
 
 /* koniec CSS Michala */
