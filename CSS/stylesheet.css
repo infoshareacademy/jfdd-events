@@ -108,16 +108,21 @@ input {
 
 
 /* CSS Krzysztofa */
-#zajawka p {
+#zajawka {
+    position: relative;
+}
+
+#zajawka div {
+    position: absolute;
+    top: 100px;
+    right: 50px;
     text-align: right;
-    padding-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 300px;
     font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2em;
+    color: #c2f2e7;
 }
-#zajawka div {
-    background: url(../IMAGES/panorama_gdanska.jpg) no-repeat;
+
+#zajawka img {
     background-size: cover;
     display: block;
     width:100%;
