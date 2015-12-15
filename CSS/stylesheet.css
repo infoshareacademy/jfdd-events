@@ -2,69 +2,46 @@ body {
     margin: 0;
     background-color: #fbfdff;
 }
-/* CSS Michala */
 
-#social {
-    float: right;
-    padding: 19px;
-    display: flex;
+.clear {
+    clear: both;
+}
+.kontener {
+    width: 1000px;
+    margin: auto;
+}
+/*nowe ostylowanie nowego menu w nowym wydaniu*/
+
+/*MENU*/
+#top {
+    height: 50px;
+    background-color: #bababa;
+
+}
+#logo img {
+    float: left;
+    height: 40px;
+    width: 40px;
 }
 
-#social a {
-    margin-right: 13px;
+ul{
+    float: left;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+/*  SOCIAL MEDIA */
+#social_menu {
+    float: right;
 }
 .social_icon {
-    padding-right: 25px;
-}
-
-/* koniec CSS Michala */
-
-
-
-/* CSS Kuby */
-.top {
-    background-color: #e3e3e3;
-    display: inline-block;
-    width: 100%;
-    position: fixed;
-}
-
-#menulogo {
     float: left;
-}
 
-#menulogo img {
-    height: 50px;
-    margin-top: 5px;
-    margin-left: 30px;
-    margin-right: 80px;
 }
-
-#menubar {
-    float: left;
-}
-
-ul {
-    font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, Lato, sans-serif;
-    font-weight: 500;
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    margin-left: 50px;
-    font-size: 1.4em;
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-}
-
-li a:hover {
-    color: white;
-}
-
 
 #call_header {
     font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, Lato, sans-serif;
