@@ -160,53 +160,28 @@ input {
 }
 
 .graphics img {
-    width:50px;
-    height:50px;
+    display: inline-block;
+    width: 33%;
+    height:33%;
+    padding-bottom:1%;
 }
 
-h1 {
-    font-family: Verdana, sans-serif;
-    color: #62acff;
-    font-size: large;
+.functions {
+    display: inline-block;
+    width: 33%;
+    height:33%;
     text-align: center;
-    text-decoration: underline;
+    font-size: 2em;
+    /*font-family:SansSerif;*/
+    padding-bottom: 2%;
 }
 
-p {
-    text-align: center
-}
-
-.left {
-    style:"color: #0000ff; font-weight: bold;"
-    display:inline-block;
-    float: right;
-    padding:1em;
-    background-color: plum;
-    width:20%;
-    height:20%;
-}
-
-.center{
-    display:inline-block;
-    float:left;
-/*vertical-align: top;*/
-    padding:1em;
-    background-color:yellow;
-    width:20%;
-    height:20%;
-    margin:auto;
-
-    /*position:relative;*/
-    /*left:30%;*/
-}
-
-.right{
-    float:right;
-    display:inline-block;
-    padding:1em;
-    background-color: #88ffb9;
-    width:20%;
-    height:20%;
+.functions_d {
+    display: inline-block;
+    width: 33%;
+    height:33%;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 /*KONIEC CSS MONIKI*/
