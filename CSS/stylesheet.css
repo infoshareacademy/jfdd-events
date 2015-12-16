@@ -1,3 +1,13 @@
+@font-face
+
+{
+
+    font-family: Lato;
+
+    src:url(../FONTS/Lato-Light.ttf);
+
+}
+
 body {
     margin: 0;
     background-color: #fbfdff;
@@ -15,13 +25,13 @@ body {
 /*MENU*/
 #top {
     height: 50px;
-    background-color: #bababa;
-
+    background-color: #f1f1f1;
 }
 #logo img {
     float: left;
     height: 40px;
     width: 40px;
+    padding-top: 5px;
 }
 
 ul{
@@ -32,6 +42,7 @@ li{
     text-decoration: none;
     display: inline;
     padding-left: 10px;
+    font-family: Lato;
 }
 
 /*  SOCIAL MEDIA */
@@ -40,11 +51,20 @@ li{
 }
 .social_icon {
     float: left;
-
+    padding-left: 20px;
+    padding-top: 13px;
+}
+.social_icon img {
+    height: 20px;
+    width: 20px;
+}
+.social_icon img:hover {
+    height: 25px;
+    width: 25px;
 }
 
 #call_header {
-    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, Lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;
@@ -52,7 +72,7 @@ li{
 }
 
 #call_text {
-    font-family: "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 1.5em;
     color: #535353; /* light grey */
     text-align: center;
@@ -74,7 +94,7 @@ input {
 }
 
 #button {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
     margin-top: 35px;
     padding: 0;
     height: 70px;
@@ -101,6 +121,11 @@ input {
     margin-top: 3px;
     position: relative;
     top: 5px;
+}
+
+span {
+    font-family: Lato;
+    font-weight: 400;
 }
 
 /* koniec CSS Kuby */
