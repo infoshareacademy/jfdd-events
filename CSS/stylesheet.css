@@ -116,12 +116,13 @@ input {
 
 #zajawka div {
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 50px;
     text-align: right;
     font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 2em;
-    color: #c2f2e7;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #dce0f2;
 }
 
 #zajawka img {
