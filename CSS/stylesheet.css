@@ -26,28 +26,35 @@ body {
 #top {
     height: 50px;
     background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
 }
 #logo img {
     float: left;
     height: 40px;
     width: 40px;
     padding-top: 5px;
+    padding-left: 200px;
 }
 
 ul{
     float: left;
+    padding-left: 75 px;
 }
 
 li{
     text-decoration: none;
     display: inline;
-    padding-left: 10px;
-    font-family: Lato;
+    padding-left: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 0.9em;
 }
 
 /*  SOCIAL MEDIA */
 #social_menu {
     float: right;
+    padding-right: 200px;
 }
 .social_icon {
     float: left;
@@ -58,10 +65,7 @@ li{
     height: 20px;
     width: 20px;
 }
-.social_icon img:hover {
-    height: 25px;
-    width: 25px;
-}
+
 
 #call_header {
     font-family: Lato, sans-serif;
@@ -73,9 +77,10 @@ li{
 
 #call_text {
     font-family: Lato, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #535353; /* light grey */
     text-align: center;
+    font-weight: 500;
 }
 
 form {
@@ -85,12 +90,15 @@ form {
 }
 
 input {
-    margin-top: 15px;
-    height: 40px;
-    width: 400px;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
     border-radius: 5px;
-    font-size: 1.2em;
-    padding-left: 25px;
+    font-size: 1em;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    font-family: Lato, sans-serif;
+    font-weight: 200;
 }
 
 #button {
@@ -100,27 +108,26 @@ input {
     height: 70px;
     width: 300px;
     font-size: 1.5em;
-    font-weight: 500;
-    background-color: #EBC844; /* yellow */
+    font-weight: 600;
+    background-color: #212891; /* yellow */
     color: white;
-    border: 1px outset #535353; /* grey */
-    border-radius: 8px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.16), 0 17px 30px 0 rgba(0,0,0,0.15);
+    border: 1px solid #535353; /* grey */
+    border-radius: 5px;
+    opacity: 0.9;
 }
 
 #button:hover {
-    background-color: #EF8B2C; /* orange */
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 20px 50px 0 rgba(0,0,0,0.3);
+    background-color: #212891;
+    opacity: 1;
 }
 
 #checkbox {
     text-align: center;
     width: 25px;
     height: 25px;
-    margin-top: 3px;
+    margin-top: 10px;
     position: relative;
-    top: 5px;
+    top: 6px;
 }
 
 span {
@@ -134,7 +141,7 @@ span {
 
 /* CSS Krzysztofa */
 #zajawka {
-    position: relative;
+    position: inherit;
     margin: 0;
     padding: 0;
 }
@@ -212,10 +219,10 @@ p {
 
 .stopka {
     padding: 17px;
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
     font-family: "Arial", "sans-serif";
-    margin: 27px auto 60px;
-    color: grey;
+    margin: 60px auto 0px;
+    color: #252525;
     font-size: 12px;
 }
