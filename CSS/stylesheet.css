@@ -213,12 +213,12 @@ span {
 }
 
 .function_1 img {
-    width: 80%;
+    width: 90%;
     /*background-color: darkgrey;*/
 }
 
 .function_1 h1 {
-    width: 70%;
+    width: 90%;
     margin: auto;
     font-family: Lato, "sans-serif";
     font-size: x-large;
@@ -229,7 +229,7 @@ span {
 }
 
 .function_1 p {
-    width: 80%;
+    width: 90%;
     margin: auto;
     font-family: Lato, "sans-serif";
     font-size: large;
