@@ -58,6 +58,11 @@ li{
     padding-left: 20px;
     font-family: Lato, sans-serif;
     font-size: 0.9em;
+    font-weight: 300;
+}
+
+li:hover {
+    font-weight: 600;
 }
 
 /*  SOCIAL MEDIA */
@@ -67,12 +72,12 @@ li{
 }
 .social_icon {
     float: left;
-    padding-left: 20px;
     padding-top: 10px;
 }
 .social_icon img {
     height: 30px;
     width: 30px;
+    padding-left: 20px;
     transition: width 0.5s, height 0.5s;
 }
 
