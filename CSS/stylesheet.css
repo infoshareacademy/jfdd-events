@@ -13,6 +13,14 @@ body {
     background-color: #fbfdff;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 .clear {
     clear: both;
 }
@@ -152,6 +160,7 @@ span {
     font-weight: 400;
 }
 
+
 /* koniec CSS Kuby */
 
 
@@ -184,8 +193,8 @@ span {
     font-size: 1.4em;
     color: #535353; /* light grey */
     width: 80%;
-    text-align: justify;
-    padding-top: 50px;
+    text-align: center;
+    padding-top: 30px;
     padding-bottom: 50px;
     margin: auto;
     font-weight: 500;
