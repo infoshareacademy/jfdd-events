@@ -133,6 +133,7 @@ input {
 }
 
 #button {
+    position: static;
     font-family: Lato, sans-serif;
     margin-top: 35px;
     padding: 0;
