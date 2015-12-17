@@ -213,42 +213,49 @@ span {
 
 /*CSS MONIKI*/
 
+#functions {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    /*background-color: whitesmoke;*/
+}
 
-h1 {
-    font-family: Verdana, sans-serif;
-    color: #62acff;
+.function_1 {
+    display: inline-block;
+    width: 24%;
+    margin: 4%;
+    text-align: center;
+    vertical-align: top;
+    /*background-color: yellow;*/
+    /*border: grey solid;*/
+}
+
+.function_1 img {
+    width: 90%;
+    /*background-color: darkgrey;*/
+}
+
+.function_1 h1 {
+    width: 90%;
+    margin: auto;
+    font-family: Lato, "sans-serif";
+    font-size: x-large;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-weight:600;
+    /*background-color: #c2f2e7;*/
+}
+
+.function_1 p {
+    width: 90%;
+    margin: auto;
+    font-family: Lato, "sans-serif";
     font-size: large;
     text-align: center;
-    text-decoration: underline;
+    font-weight:400;
 }
 
-p {
-    text-align: center
-}
-
-.left {
-    display:inline-block;
-    padding:1em;
-    background-color: plum;
-    width:150px;
-    height:150px;
-}
-
-.center{
-    display:inline-block;
-    padding:1em;
-    background-color:yellow;
-    width:150px;
-    height:150px;
-}
-
-.right{
-    display:inline-block;
-    padding:1em;
-    background-color: #88ffb9;
-    width:150px;
-    height:150px;
-}
 
 /*KONIEC CSS MONIKI*/
 
@@ -269,4 +276,5 @@ p {
     margin: 60px auto 0;
     color: #252525;
     font-size: 12px;
+    text-align: center;
 }
