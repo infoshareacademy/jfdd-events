@@ -21,6 +21,10 @@ a:visited {
     color: black;
 }
 
+a:link {
+    color: black;
+}
+
 .clear {
     clear: both;
 }
@@ -146,7 +150,6 @@ input {
     border: 1px solid #535353; /* grey */
     border-radius: 5px;
     opacity: 0.9;
-    position: static;
     z-index: 10;
 }
 
