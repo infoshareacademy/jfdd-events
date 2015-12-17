@@ -19,23 +19,23 @@
         <section id="top">
 
             <div id="logo">
-                <img src="IMAGES/logo.png"/>
+                <a href="#zajawka"><img src="IMAGES/logo.png"/></a>
             </div>
             <nav>
                 <ul>
-                    <li>JAK TO DZIAŁA?</li>
-                    <li>BĄDŹ NA BIEŻĄCO</li>
-                    <li>O NAS</li>
+                    <li><a href="#functions">JAK TO DZIAŁA?</a></li>
+                    <li><a href="#header_anchor">BĄDŹ NA BIEŻĄCO</a></li>
+                    <li><a href="#onas_anchor">O NAS</a></li>
                 </ul>
             </nav>
             <div id="social_menu">
-                <div class="social_icon">
+                <div class="social_icon icon1">
                     <a href="https://pl-pl.facebook.com/GdanskStrefa/" target="_blank"> <img src="IMAGES/fb.svg"  alt="facebook" /></a>
                 </div>
-                <div class="social_icon">
+                <div class="social_icon icon2">
                     <a href="https://twitter.com/gdansk" target="_blank"><img src="IMAGES/tw.svg"   alt="twitter"/></a>
                 </div>
-                <div class="social_icon">
+                <div class="social_icon icon3">
                     <a href="https://plus.google.com/+gdansk/posts" target="_blank"><img src="IMAGES/gg.svg"  alt="google+"/></a>
                 </div>
 
@@ -51,32 +51,49 @@
         <img src="IMAGES/panorama_gdanska.jpg">
     </figure>
 
-    <div class="clear"></div>
+        <div id="opis_zajawki">
+            <h2>Kalendarz Imprez</h2>
+            <p>Planujesz przyjazd do Gdańska?
+                Jesteś już na miejscu i nie wiesz jak zaplanować swój pobyt
+                i od czego zacząć zwiedzanie? Spodziewasz się wizyty rodziny lub znajomych
+                i nie wiesz w jakie miejsca ich zabrać, co polecić, gdzie zaprosić?
+                Nasz <strong>kalendarz wydarzeń</strong> pomoże Ci trafić do najciekawszych miejsc w Gdańsku,
+                poznać najważniejsze obiekty i atrakcje w naszym mieście.
+
+            </p>
+        </div>
+
+        <div class="clear"></div>
 
     <div class="kontener">
-    <section id="funkcje">
-        <!- Co, gdzie, kiedy, po ile. Sekcje: imprezy dla dzieci, muzyka, sport, kino, teatr. Opinie.->
-
-        <div class="left">
-            <h1>Z nami będziesz na bieżąco!</h1>
-            <p>Dowiesz się, jakie wydarzenia kulturalne i sportowe odbędą się <br>w najbliższym czasie w naszym mieście. </p>
-        </div>
-
-        <div class="center">
-            <h1>Twoja opinia jest dla nas ważna! </h1>
-            <p>Poleć innym, co warto zobaczyć, w czym warto wziąć udział. </p>
-        </div>
-
-        <div class="right">
-            <h1>Zabierz swoje pociechy od komputera! </h1>
-            <p>Podpowiemy Tobie, jak miło spędzić czas wspólnie z dziećmi.</p>
-        </div>
 
 
-    </section>
+        <section id="functions">
+            <!- Co, gdzie, kiedy, po ile. Sekcje: imprezy dla dzieci, muzyka,sport, kino, teatr. Opinie.->
+
+            <div class="function_1">
+                <img src="./IMAGES/share-01.png" alt="opinions">
+                <h1>Twoje opinie</h1>
+                <p>Poradź innym,<br> w czym warto wziąć udział.</p>
+            </div>
+
+            <div class="function_1">
+                <img src="./IMAGES/stoper-01.png" alt="stoper">
+                <h1>Zawsze <br>na czasie</h1>
+                <p>Kultura, rozrywka <br>i sport w naszym <span id="header_anchor">mieście.</span></p>
+            </div>
+
+            <div class="function_1">
+                <img src="./IMAGES/podp-01.png" alt="hint">
+                <h1>Hity tygodnia!</h1>
+                <p>Wiemy, gdzie warto pójść.</p>
+            </div>
+
+        </section>
 
 
-    <section id="call_to_action">
+
+        <section id="call_to_action">
 
         <header>
             <h1 id="call_header">Bądźmy w kontakcie</h1>
@@ -85,10 +102,11 @@
 
 
         <section id="form">
-            <form action="" method="post">
+            <form action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
                 <input type="text" required name="firstname" placeholder="imię" /><br />
                 <input type="number" required name="phone" placeholder="numer telefonu" /><br />
                 <input type="email" required name="mail" placeholder="e-mail" /><br />
+                <input type="hidden" name="receiver" value="jakub.klos91@gmail.com">
                 <input id="checkbox" title="checkbox" type="checkbox" required /><span>Zapoznałem się oraz akceptuję <a href="IMAGES/regulamin.pdf" target="_blank">regulamin</a> serwisu.</span><br />
                 <input id="button" type="submit" value="ZAPISZ SIĘ" /><br />
             </form>
