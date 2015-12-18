@@ -113,7 +113,7 @@ li:hover {
     font-weight: 500;
     text-align: justify;
     margin:auto;
-    width: 700px;
+    width: 1000px;
     text-indent: 20px;
 }
 
@@ -121,6 +121,7 @@ form {
     text-align: center;
     width: 100%;
     height: auto;
+    margin-top: 50px;
 }
 
 input {
@@ -209,7 +210,7 @@ span {
     margin: auto;
     font-weight: 500;
     text-indent: 20px;
-    width: 700px;
+    width: 1000px;
 
 }
 #opis_zajawki h2 {
@@ -238,7 +239,7 @@ span {
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+    padding-top: 1%;
     /*background-color: whitesmoke;*/
 }
 
@@ -282,11 +283,14 @@ span {
 
 /*css michala*/
 
-#onas {
+
+#naglowek_onas {
     font-family: Lato, sans-serif;
     font-size: 2em;
-    color: #535353; /* light grey */
-
+    color: #252525; /* dark grey */
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 #opisNas {
@@ -295,7 +299,7 @@ span {
     color: #535353; /* light grey */
     font-weight: 500;
     text-align: justify;
-    width: 700px;
+    width: 1000px;
     text-indent: 20px;
     margin: auto;
 }
@@ -308,12 +312,9 @@ span {
     text-decoration: none;
     font-weight: 500;
 }
-#my {
-    display: inline-flex;
-    margin: auto;
-}
 
-/*
+
+
 #my {
     height: 250px;
     display: inline-flex;
@@ -331,7 +332,7 @@ span {
     font-weight:400;
     padding: 20px;
 }
-*/
+
 .stopka {
     padding: 17px;
     border-top: 1px solid #c1c1c1;
