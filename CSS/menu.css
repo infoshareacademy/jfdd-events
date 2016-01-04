@@ -43,34 +43,48 @@ li{
 li:hover {
     font-weight: 600;
 }
-
-/*  SOCIAL MEDIA */
 #socialIconsInNavBar {
     float: right;
     padding-right: 200px;
 }
-.socialIcon {
-    float: left;
-    padding-top: 10px;
-}
-.socialIcon img {
+.socialIcon1 img {
     height: 30px;
     width: 30px;
     padding-left: 20px;
+    padding-top: 10px;
+    position: fixed;
+    right: 180px;
     transition: width 0.5s, height 0.5s;
 }
-
-.icon1 img:hover {
-    height: 35px;
-    width: 35px;
+.socialIcon2 img {
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: fixed;
+    right: 120px;
+    transition: width 0.5s, height 0.5s;
+}
+.socialIcon3 img {
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: fixed;
+    right: 60px;
+    transition: width 0.5s, height 0.5s;
+}
+.socialIcon1 img:hover {
+    height: 36px;
+    width: 36px;
 }
 
-.icon2 img:hover {
-    height: 35px;
-    width: 35px;
+.socialIcon2 img:hover {
+    height: 36px;
+    width: 36px;
 }
 
-.icon3 img:hover {
-    height: 35px;
-    width: 35px;
+.socialIcon3 img:hover {
+    height: 36px;
+    width: 36px;
 }
