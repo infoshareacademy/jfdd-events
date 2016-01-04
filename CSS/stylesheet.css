@@ -239,7 +239,7 @@ span {
 
 /*CSS MONIKI*/
 
-#functions {
+#MainContent {
     margin: auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -247,7 +247,7 @@ span {
     /*background-color: whitesmoke;*/
 }
 
-.function_1 {
+.MainContentFunctions {
     display: inline-block;
     width: 24%;
     margin: 4%;
@@ -257,12 +257,12 @@ span {
     /*border: grey solid;*/
 }
 
-.function_1 img {
+.MainContentFunctions img {
     width: 90%;
     /*background-color: darkgrey;*/
 }
 
-.function_1 h1 {
+.MainContentFunctions h1 {
     width: 90%;
     margin: auto;
     font-family: Lato, "sans-serif";
@@ -273,7 +273,7 @@ span {
     /*background-color: #c2f2e7;*/
 }
 
-.function_1 p {
+.MainContentFunctions p {
     width: 90%;
     margin: auto;
     font-family: Lato, "sans-serif";
