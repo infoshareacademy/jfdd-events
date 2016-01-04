@@ -1,0 +1,76 @@
+#topNavBar {
+    height: 50px;
+    background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 100;
+}
+#logoInNavBar img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+ul{
+    float: left;
+    padding-left: 75px;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 20px;
+    font-family: Lato, sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+li:hover {
+    font-weight: 600;
+}
+
+/*  SOCIAL MEDIA */
+#socialIconsInNavBar {
+    float: right;
+    padding-right: 200px;
+}
+.socialIcon {
+    float: left;
+    padding-top: 10px;
+}
+.socialIcon img {
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.icon1 img:hover {
+    height: 35px;
+    width: 35px;
+}
+
+.icon2 img:hover {
+    height: 35px;
+    width: 35px;
+}
+
+.icon3 img:hover {
+    height: 35px;
+    width: 35px;
+}
