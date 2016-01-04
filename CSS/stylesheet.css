@@ -1,12 +1,6 @@
-@font-face {
-
-    font-family: Lato;
-
-    src:url(../FONTS/Lato-Light.ttf);
-}
-
 body {
     margin: 0;
+    padding: 0;
     background-color: #fbfdff;
 }
 
@@ -15,6 +9,6 @@ body {
 }
 
 .kontener {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
