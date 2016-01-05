@@ -9,7 +9,6 @@
     top: 80px;
     right: 60px;
     text-align: right;
-    font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     font-weight: 400;
     color: #ffffff;
@@ -23,7 +22,6 @@
 }
 
 #opis_zajawki p {
-    font-family: 'Lato', sans-serif;
     font-size: 1.4em;
     color: #535353; /* light grey */
     text-align: justify;
@@ -35,7 +33,6 @@
 }
 
 #opis_zajawki h2 {
-    font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;

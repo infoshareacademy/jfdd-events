@@ -21,7 +21,6 @@
 .MainContentFunctions h1 {
     width: 90%;
     margin: auto;
-    font-family: 'Lato', sans-serif;
     font-size: x-large;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -31,7 +30,6 @@
 .MainContentFunctions p {
     width: 90%;
     margin: auto;
-    font-family: 'Lato', sans-serif;
     font-size: large;
     text-align: center;
     font-weight: 500;
