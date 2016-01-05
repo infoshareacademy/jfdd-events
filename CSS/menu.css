@@ -34,31 +34,19 @@ ul {
     padding-left: 75px;
 }
 
-li {
+ul li {
     text-decoration: none;
-    display: inline;
-    padding-left: 20px;
+    display: inline-block;
+    text-align: center;
     font-size: 0.9em;
     font-weight: 400;
 }
 
-.navLi1 {
-    position: fixed;
-    left: 300px;
-    min-width: 200px;
-}
+li#firstNavLi { width: 150px; }
 
-.navLi2 {
-    position: fixed;
-    left: 440px;
-    min-width: 200px;
-}
+li#secondNavLi { width: 150px; }
 
-.navLi3 {
-    position: fixed;
-    left: 600px;
-    min-width: 200px;
-}
+li#thirdNavLi{ width: 90px; }
 
 li:hover {
     font-weight: 600;
