@@ -33,7 +33,7 @@ ul{
 
 li{
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     padding-left: 20px;
     font-family: Lato, sans-serif;
     font-size: 0.9em;
