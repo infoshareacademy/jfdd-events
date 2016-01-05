@@ -6,22 +6,22 @@
 
 #zajawka div {
     position: absolute;
-    top: 70px;
-    right: 200px;
+    top: 80px;
+    right: 60px;
     text-align: right;
-    font-family: Lato, "Helvetica Neue LT Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2.5em;
-    font-weight: bolder;
-    color: #dce0f2;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 1.1px;
 }
 
 #zajawka img {
     display: block;
     width:100%;
+    padding-top: 50px;
 }
 
 #opis_zajawki p {
-    font-family: Lato, sans-serif;
     font-size: 1.4em;
     color: #535353; /* light grey */
     text-align: justify;
@@ -29,16 +29,14 @@
     padding-bottom: 50px;
     margin: auto;
     font-weight: 500;
-    text-indent: 20px;
     width: 1000px;
-
 }
+
 #opis_zajawki h2 {
-    font-family: Lato, sans-serif;
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;
-    padding-top: 50px;
     margin: auto;
     font-weight: 500;
+    padding-top: 90px;
 }

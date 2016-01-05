@@ -1,26 +1,28 @@
 #naglowek_onas {
-    font-family: Lato, sans-serif;
     font-size: 2em;
     color: #252525; /* dark grey */
     text-align: center;
     text-decoration: none;
     font-weight: 500;
+    padding-top: 30px;
 }
 
-#opisNas {
-    font-family: Lato, sans-serif;
+#naglowek_onas p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#opisNas p {
     font-size: 1em;
     color: #535353; /* light grey */
     font-weight: 500;
     text-align: justify;
     width: 1000px;
-    text-indent: 20px;
-    margin: auto;
+    padding-bottom: 40px;
 }
 
 .o_nas {
-    font-family: Lato, sans-serif;
-    font-size: 2.5em;
+    font-size: 1.4em;
     color: #252525; /* dark grey */
     text-align: center;
     text-decoration: none;
@@ -38,7 +40,6 @@
     float: left;
     width: 70%;
     margin: auto;
-    font-family: Lato, "sans-serif";
     font-size: large;
     text-align: center;
     font-weight:400;
