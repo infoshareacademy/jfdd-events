@@ -1,5 +1,4 @@
 #callToActionHeader {
-    font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;
@@ -8,7 +7,6 @@
 }
 
 .callToActionText {
-    font-family: 'Lato', sans-serif;
     font-size: 1.4em;
     color: #535353; /* light grey */
     font-weight: 500;
@@ -31,13 +29,11 @@ input {
     font-size: 1em;
     padding-left: 15px;
     padding-bottom: 4px;
-    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
 #formButton {
     position: static;
-    font-family: 'Lato', sans-serif;
     margin-top: 35px;
     padding: 0;
     height: 70px;
@@ -74,7 +70,6 @@ input {
 }
 
 span#regulationsText {
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
     padding-left: 5px;
 }
