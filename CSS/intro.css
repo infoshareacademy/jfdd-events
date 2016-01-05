@@ -7,13 +7,13 @@
 #zajawka div {
     position: absolute;
     top: 80px;
-    right: 70px;
+    right: 60px;
     text-align: right;
     font-family: 'Lato', sans-serif;
-    font-size: 2.7em;
-    font-weight: 300;
+    font-size: 2.5em;
+    font-weight: 400;
     color: #ffffff;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
 }
 
 #zajawka img {
