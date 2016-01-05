@@ -38,9 +38,26 @@ li {
     text-decoration: none;
     display: inline;
     padding-left: 20px;
-    font-family: 'Lato', sans-serif;
     font-size: 0.9em;
     font-weight: 400;
+}
+
+.navLi1 {
+    position: fixed;
+    left: 300px;
+    min-width: 200px;
+}
+
+.navLi2 {
+    position: fixed;
+    left: 440px;
+    min-width: 200px;
+}
+
+.navLi3 {
+    position: fixed;
+    left: 600px;
+    min-width: 200px;
 }
 
 li:hover {
