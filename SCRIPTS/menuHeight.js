@@ -4,13 +4,10 @@
 $(document).ready(function(){
     $(window).scroll(function() {
         if ($(document).scrollTop() > 200) {
-            $("#topNavBar").animate({height: "50px"},"slow");
-            $("#logoInNavBar").css("padding-top", "5px");
-            $("div#socialIconsInNavBar").css("margin-top", "-15px");
-            $("li").css("padding-top", "-5px");
+            $(".topNavBar").addClass("narrowMenu");
             }
         else {
-            $("#topNavBar").animate({height: "70px"},"slow");
+            $(".topNavBar").removeClass("narrowMenu");
         }
     });
 });
