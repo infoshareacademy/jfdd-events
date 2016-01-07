@@ -29,70 +29,55 @@ a:link {
     color: black;
 }
 
-ul {
+ul#navButtons {
     float: left;
     padding-left: 75px;
 }
 
-li {
+ul#navButtons li {
     text-decoration: none;
     display: inline-block;
-    padding-left: 20px;
+    text-align: center;
     font-size: 0.9em;
     font-weight: 400;
 }
 
-.navLi1 {
-    position: fixed;
-    left: 300px;
-    min-width: 200px;
-}
+ul#navButtons li#firstNavLi { width: 150px; }
 
-.navLi2 {
-    position: fixed;
-    left: 440px;
-    min-width: 200px;
-}
+ul#navButtons li#secondNavLi { width: 150px; }
 
-.navLi3 {
-    position: fixed;
-    left: 600px;
-    min-width: 200px;
-}
-li:hover {
+ul#navButtons li#thirdNavLi { width: 90px; }
+
+ul#navButtons li#firstNavLi:hover {
     font-weight: 600;
 }
+
+ul#navButtons li#secondNavLi:hover {
+    font-weight: 600;
+}
+
+ul#navButtons li#thirdNavLi:hover {
+    font-weight: 600;
+}
+
+/*  SOCIAL MEDIA */
 #socialIconsInNavBar {
     float: right;
     padding-right: 200px;
 }
-.socialIcon1 img {
+
+.socialIcon {
+    float: left;
+    padding-top: 10px;
+}
+
+.socialIcon img {
     height: 30px;
     width: 30px;
     padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 180px;
     transition: width 0.5s, height 0.5s;
 }
-.socialIcon2 img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 120px;
-    transition: width 0.5s, height 0.5s;
-}
-.socialIcon3 img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 60px;
-    transition: width 0.5s, height 0.5s;
-}
+
 .socialIcon1 img:hover {
     height: 36px;
     width: 36px;
