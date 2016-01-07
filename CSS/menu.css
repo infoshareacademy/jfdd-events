@@ -29,12 +29,12 @@ a:link {
     color: black;
 }
 
-ul {
+ul#navButtons {
     float: left;
     padding-left: 75px;
 }
 
-ul li {
+ul#navButtons li {
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -42,13 +42,21 @@ ul li {
     font-weight: 400;
 }
 
-li#firstNavLi { width: 150px; }
+ul#navButtons li#firstNavLi { width: 150px; }
 
-li#secondNavLi { width: 150px; }
+ul#navButtons li#secondNavLi { width: 150px; }
 
-li#thirdNavLi{ width: 90px; }
+ul#navButtons li#thirdNavLi { width: 90px; }
 
-li:hover {
+ul#navButtons li#firstNavLi:hover {
+    font-weight: 600;
+}
+
+ul#navButtons li#secondNavLi:hover {
+    font-weight: 600;
+}
+
+ul#navButtons li#thirdNavLi:hover {
     font-weight: 600;
 }
 

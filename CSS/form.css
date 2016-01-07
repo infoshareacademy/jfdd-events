@@ -51,12 +51,13 @@ input {
 #formButton {
     background-color: #212891;
     opacity: 0.8;
+    transition: 3550ms;
 }
 
 #formButton:hover {
     background-color: #212891;
     opacity: 1;
-    transition: 800ms;
+    transition: 600ms;
 }
 
 #formCheckbox {
