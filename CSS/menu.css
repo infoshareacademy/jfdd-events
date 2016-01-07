@@ -1,5 +1,5 @@
-#topNavBar {
-    height: 50px;
+.topNavBar {
+    height: 70px;
     background-color: #f1f1f1;
     position: fixed;
     width: 100%;
@@ -13,7 +13,7 @@
     float: left;
     height: 40px;
     width: 40px;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: 200px;
 }
 
@@ -67,28 +67,32 @@ ul#navButtons li#thirdNavLi:hover {
 }
 
 .socialIcon {
-    float: left;
-    padding-top: 10px;
-}
-
-.socialIcon img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    transition: width 0.5s, height 0.5s;
-}
-
-.icon1 img:hover {
-    height: 35px;
-    width: 35px;
-}
-
-.socialIcon2 img:hover {
     height: 36px;
     width: 36px;
+    transition: background-size 0.3s;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.socialIcon3 img:hover {
-    height: 36px;
-    width: 36px;
+.socialIcon:hover {
+    background-size: 36px 36px;
+}
+
+.socialIcon-fb {
+    background-image: url("../IMAGES/fb.svg");
+}
+.socialIcon-twitter {
+    background-image: url("../IMAGES/tw.svg");
+}
+.socialIcon-google {
+    background-image: url("../IMAGES/gg.svg");
+}
+
+.narrowMenu {
+    height: 50px;
+    transition: height 2s linear;
 }
