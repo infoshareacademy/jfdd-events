@@ -59,8 +59,6 @@ ul#navButtons li#secondNavLi:hover {
 ul#navButtons li#thirdNavLi:hover {
     font-weight: 600;
 }
-
-/*  SOCIAL MEDIA */
 #socialIconsInNavBar {
     float: right;
     padding-right: 200px;
