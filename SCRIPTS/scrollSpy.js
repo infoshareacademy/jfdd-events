@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 
     var lastId,
-        topMenu = $("#navButtons"),
+        topMenu = $(".navButtons"),
         topMenuHeight = topMenu.outerHeight()+25,
 
         menuItems = topMenu.find("a"),
