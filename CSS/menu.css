@@ -60,6 +60,7 @@ ul#navButtons li a:hover,
 ul#navButtons li.active a {
     color: black;
     font-weight: 600;
+    padding-bottom: 5px;
     border-bottom: 2px solid black;
 }
 
