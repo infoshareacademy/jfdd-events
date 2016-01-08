@@ -65,7 +65,7 @@ ul#navButtons li.active a {
 
 
 
-#socialIconsInNavBar {
+.socialIconsInNavBar {
     float: right;
     padding-right: 200px;
 }
@@ -96,7 +96,13 @@ ul#navButtons li.active a {
     background-image: url("../IMAGES/gg.svg");
 }
 
-.narrowMenu {
+.narrowingMenu {
     height: 50px;
-    transition: height 2s linear;
+    margin-top: -8px;
+    transition: height 2s linear, margin-top 2s linear;
+}
+.wideningMenu {
+    height: 70px;
+    margin-top: 0;
+    transition: height 1s linear, margin-top 1s linear;
 }

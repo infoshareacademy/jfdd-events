@@ -3,11 +3,13 @@
  */
 $(document).ready(function(){
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 200) {
-            $(".topNavBar").addClass("narrowMenu");
+        if ($(document).scrollTop() > 400) {
+            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").addClass("narrowingMenu");
+            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").removeClass("wideningMenu");
             }
         else {
-            $(".topNavBar").removeClass("narrowMenu");
+            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").removeClass("narrowingMenu");
+            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").addClass("wideningMenu");
         }
     });
 });
