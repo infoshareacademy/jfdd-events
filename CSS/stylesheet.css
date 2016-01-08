@@ -13,3 +13,14 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+
+::selection {
+    background-color: darkgrey;
+    color: #000;
+    text-shadow: 1px 1px #fff9ff;
+}
+a::selection {
+    background-color: bisque;
+    color: #000;
+    text-shadow: 1px 1px #fff9ff;
+}
