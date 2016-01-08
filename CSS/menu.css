@@ -36,14 +36,8 @@ ul.navButtons li {
     display: inline-block;
     float: left;
     text-align: left;
-    min-width: 180px;
     padding-top: 25px;
 }
-
-ul.navButtons li#thirdMenuButton {
-    padding-left: 19px;
-}
-
 
 ul.navButtons li a {
     color: black;
@@ -55,9 +49,9 @@ ul.navButtons li a {
 ul.navButtons li a:hover,
 ul.navButtons li.active a {
     color: black;
-    font-weight: 600;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
+    text-shadow: 1px 1px #535353;
 }
 
 
