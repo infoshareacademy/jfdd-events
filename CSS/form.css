@@ -95,3 +95,23 @@ span#regulationsLink a:active {
 #checkbox {
     text-align: left;
 }
+
+.animate_outside {
+    -webkit-animation-name: zoomIn;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+}
+
+@keyframes zoomIn {
+    from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+}
+
+50% {
+opacity: 1;
+}
+}
+
+
