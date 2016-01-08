@@ -1,10 +1,10 @@
-#MainContent {
+#mainContent {
     margin: auto;
     padding-top: 1%;
     min-width: 800px;
 }
 
-.MainContentFunctions {
+.mainContentFunctions {
     display: inline-block;
     width: 25%;
     margin: 4%;
@@ -12,17 +12,17 @@
     vertical-align: top;
 }
 
-.MainContentFunctions img {
+.mainContentFunctions img {
     width: 90%;
     transition: width 1s, height 1s;
 }
 
-.MainContentFunctions img:hover {
+.mainContentFunctions img:hover {
     height:93%;
     width: 93%;
 }
 
-.MainContentFunctions h1 {
+.mainContentFunctions h1 {
     width: 90%;
     margin: auto;
     font-size: x-large;
@@ -31,7 +31,7 @@
     font-weight:500;
 }
 
-.MainContentFunctions p {
+.mainContentFunctions p {
     width: 90%;
     margin: auto;
     font-size: large;
