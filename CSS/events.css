@@ -39,6 +39,26 @@
     font-weight: 500;
 }
 
+
+.animate_right {
+    -webkit-animation-name: fadeInRight;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100%,0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .animate {
     -webkit-animation-name: fadeInUp;
     -webkit-animation-duration: 2s;
@@ -48,13 +68,13 @@
 @-webkit-keyframes fadeInUp {
     from {
         opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
+        /*-webkit-transform: translate3d(0, 100%, 0);*/
         transform: translate3d(0, 100%, 0);
     }
 
     to {
         opacity: 1;
-        -webkit-transform: none;
+        /*-webkit-transform: none;*/
         transform: none;
     }
 }
