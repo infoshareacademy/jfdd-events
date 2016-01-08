@@ -97,11 +97,11 @@ ul.navButtons li.active a {
     height: 50px;
     margin-top: -8px;
     padding-top: -30px;
-    transition: height 2s linear, margin-top 2s linear;
+    transition: height 0.75s ease, margin-top 0.75s ease, padding-top 0.75s ease;
 }
 .wideningMenu {
     height: 70px;
     margin-top: 0;
     padding-top: 0;
-    transition: height 1s linear, margin-top 1s linear;
+    transition: height 0.75s ease, margin-top 0.75s ease, padding-top 0.75s ease;
 }
