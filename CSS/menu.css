@@ -1,5 +1,5 @@
-#topNavBar {
-    height: 50px;
+.topNavBar {
+    height: 70px;
     background-color: #f1f1f1;
     position: fixed;
     width: 100%;
@@ -9,101 +9,101 @@
     min-width: 1100px;
 }
 
+@keyframes rotate {
+    to {transform: rotateZ(360deg);}
+}
+
+
 #logoInNavBar img {
     float: left;
     height: 40px;
     width: 40px;
-    padding-top: 5px;
-    padding-left: 200px;
+    margin-top: 15px;
+    margin-left: 200px;
 }
 
-a {
-    text-decoration: none;
+#logoInNavBar img:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
 }
 
-a:visited {
-    color: black;
-}
 
-a:link {
-    color: black;
-}
-
-ul {
-    float: left;
-    padding-left: 75px;
-}
-
-li {
-    text-decoration: none;
+ul#navButtons {
+    float:left;
     display: inline-block;
-    padding-left: 20px;
-    font-size: 0.9em;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+ul#navButtons li {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    min-width: 180px;
+}
+
+ul#navButtons li#thirdMenuButton {
+    padding-left: 19px;
+}
+
+
+ul#navButtons li a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
     font-weight: 400;
 }
 
-.navLi1 {
-    position: fixed;
-    left: 300px;
-    min-width: 200px;
-}
-
-.navLi2 {
-    position: fixed;
-    left: 440px;
-    min-width: 200px;
-}
-
-.navLi3 {
-    position: fixed;
-    left: 600px;
-    min-width: 200px;
-}
-li:hover {
+ul#navButtons li a:hover,
+ul#navButtons li.active a {
+    color: black;
     font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
 }
-#socialIconsInNavBar {
+
+
+
+.socialIconsInNavBar {
     float: right;
     padding-right: 200px;
 }
-.socialIcon1 img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 180px;
-    transition: width 0.5s, height 0.5s;
-}
-.socialIcon2 img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 120px;
-    transition: width 0.5s, height 0.5s;
-}
-.socialIcon3 img {
-    height: 30px;
-    width: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
-    position: fixed;
-    right: 60px;
-    transition: width 0.5s, height 0.5s;
-}
-.socialIcon1 img:hover {
+
+.socialIcon {
     height: 36px;
     width: 36px;
+    transition: background-size 0.3s;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.socialIcon2 img:hover {
-    height: 36px;
-    width: 36px;
+.socialIcon:hover {
+    background-size: 36px 36px;
 }
 
-.socialIcon3 img:hover {
-    height: 36px;
-    width: 36px;
+.socialIcon-fb {
+    background-image: url("../IMAGES/fb.svg");
+}
+.socialIcon-twitter {
+    background-image: url("../IMAGES/tw.svg");
+}
+.socialIcon-google {
+    background-image: url("../IMAGES/gg.svg");
+}
+
+.narrowingMenu {
+    height: 50px;
+    margin-top: -8px;
+    transition: height 2s linear, margin-top 2s linear;
+}
+.wideningMenu {
+    height: 70px;
+    margin-top: 0;
+    transition: height 1s linear, margin-top 1s linear;
 }
