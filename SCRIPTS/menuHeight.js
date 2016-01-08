@@ -2,14 +2,17 @@
  * Created by kristo on 05.01.16.
  */
 $(document).ready(function(){
+
+    var importedClasses =  $(".topNavBar, .topNavBar img, .socialIconsInNavBar, ul.navButtons li");
+
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 400) {
-            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").addClass("narrowingMenu");
-            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").removeClass("wideningMenu");
+        if ($(document).scrollTop() > 460) {
+            importedClasses.addClass("narrowingMenu");
+            importedClasses.removeClass("wideningMenu");
             }
         else {
-            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").removeClass("narrowingMenu");
-            $(".topNavBar, .socialIconsInNavBar, ul.topNavBar").addClass("wideningMenu");
+            importedClasses.removeClass("narrowingMenu");
+            importedClasses.addClass("wideningMenu");
         }
     });
 });

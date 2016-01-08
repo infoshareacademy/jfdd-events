@@ -18,46 +18,42 @@
     float: left;
     height: 40px;
     width: 40px;
-    margin-top: 15px;
+    padding-top: 17px;
     margin-left: 200px;
-}
-
-#logoInNavBar img:hover {
     animation-name: rotate;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
 }
 
 
-ul#navButtons {
+ul.navButtons {
     float:left;
     display: inline-block;
-    padding: 10px;
-    margin-left: 30px;
+    margin: 0 10px 15px 20px;
 }
 
-ul#navButtons li {
+ul.navButtons li {
     display: inline-block;
     float: left;
     text-align: left;
     min-width: 180px;
+    padding-top: 25px;
 }
 
-ul#navButtons li#thirdMenuButton {
+ul.navButtons li#thirdMenuButton {
     padding-left: 19px;
 }
 
 
-ul#navButtons li a {
+ul.navButtons li a {
     color: black;
     padding: 10px 10px;
     text-decoration: none;
     font-weight: 400;
 }
 
-ul#navButtons li a:hover,
-ul#navButtons li.active a {
+ul.navButtons li a:hover,
+ul.navButtons li.active a {
     color: black;
     font-weight: 600;
     padding-bottom: 5px;
@@ -100,10 +96,12 @@ ul#navButtons li.active a {
 .narrowingMenu {
     height: 50px;
     margin-top: -8px;
+    padding-top: -30px;
     transition: height 2s linear, margin-top 2s linear;
 }
 .wideningMenu {
     height: 70px;
     margin-top: 0;
+    padding-top: 0;
     transition: height 1s linear, margin-top 1s linear;
 }
