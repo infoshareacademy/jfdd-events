@@ -5,6 +5,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+li a {
+    font-size: 1.1em;
+}
+
+h1, p {
+    line-height: 140%;
+}
+
+
 .clear {
     clear: both;
 }
