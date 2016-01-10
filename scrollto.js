@@ -24,9 +24,9 @@ $(function () {
         }, 'slow');
         return false;
     });
-    $("a[href='#opis_zajawki']").click(function() {
+    $("a[href='#event_anchor']").click(function() {
         debugger;
-        var offset = $("#opis_zajawki").offset().top;
+        var offset = $("#event_anchor").offset().top;
         $('html,body').animate({
             scrollTop: offset
         }, 'slow');
@@ -36,7 +36,7 @@ $(function () {
         debugger;
         var offset = $("#zajawka").offset().top;
         $('html,body').animate({
-            scrollTop: offset
+            scrollTop: 0
         }, 'slow');
         return false;
     });
