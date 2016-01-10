@@ -7,6 +7,14 @@ body {
 
 li a {
     font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 h1, p {
@@ -18,10 +26,6 @@ h1, p {
     clear: both;
 }
 
-.kontener {
-    max-width: 1000px;
-    margin: auto;
-}
 
 ::selection {
     background-color: darkgrey;

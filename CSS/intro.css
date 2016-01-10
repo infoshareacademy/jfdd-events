@@ -26,7 +26,7 @@
 }
 
 
-#opis_zajawki p {
+.opis_zajawki p {
     font-size: 1.4em;
     color: #535353; /* light grey */
     text-align: justify;
@@ -34,10 +34,9 @@
     padding-bottom: 50px;
     margin: auto;
     font-weight: 500;
-    width: 1000px;
 }
 
-#opis_zajawki h1 {
+.opis_zajawki h1 {
     font-size: 2.5em;
     color: #252525; /* dark grey */
     text-align: center;
