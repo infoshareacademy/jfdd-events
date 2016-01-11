@@ -4,10 +4,12 @@
 
 $(document).ready(function(){
 
-    document.getElementById('intro');
+    var introImage = document.getElementById('intro');
 
-    $(window).scroll(function () {
-        $(window).scrollTop();
+
+    $(window).on('scroll load', function () {
+        var actualSitePosition = $(window).scrollTop();
+        introImage.style.backgroundPositionY = 70 -actualSitePosition * 0.4 +'px';
     });
 
 
