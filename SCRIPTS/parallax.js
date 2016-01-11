@@ -4,7 +4,6 @@
 
 $(document).ready(function(){
 
-
     document.getElementById('intro');
 
     $(window).scroll(function () {
