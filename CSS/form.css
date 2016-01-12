@@ -99,15 +99,14 @@ span#regulationsLink a:active {
 }
 
 .animate_outside.viewPort1 {
-    -webkit-animation-name: zoomIn;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
+    animation-name: zoomIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 }
 
 @keyframes zoomIn {
     from {
     opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
 }
 
