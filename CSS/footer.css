@@ -7,7 +7,7 @@
     text-align: center;
     background-color: #F1F1F1;
     height: 250px;
-    display: ;
+    display: inline-flex;
     align-content: center;
 }
 .footer a {
