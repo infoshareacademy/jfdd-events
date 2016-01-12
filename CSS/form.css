@@ -98,7 +98,7 @@ span#regulationsLink a:active {
     text-align: left;
 }
 
-.animate_outside {
+.animate_outside.viewPort1 {
     -webkit-animation-name: zoomIn;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
