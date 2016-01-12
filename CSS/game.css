@@ -23,7 +23,7 @@
 }
 
 .cancel-button {
-    background-image: url("../IMAGES/cancel.svg");
+    background-image: url("../images/cancel.svg");
     position: absolute;
     display: block;
     right: 10px;
@@ -37,6 +37,7 @@
 
 .cancel-button:hover {
     background-size: 55px 55px;
+    cursor: pointer;
 }
 
 .game-button {
@@ -50,4 +51,14 @@
     padding-right: 30px;
     margin: auto;
     display: block;
+}
+
+.game-board {
+    position: fixed;
+    display: none;
+    top: 170px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+    background-color: #9e9e9e;
 }
