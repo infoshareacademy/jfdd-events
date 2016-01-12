@@ -46,6 +46,7 @@ ul.navButtons li {
     text-align: center;
     padding-top: 10px;
     height: 40px;
+    margin-bottom: 10px;
 }
 
 ul.navButtons li a {

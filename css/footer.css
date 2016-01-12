@@ -12,6 +12,11 @@
     color: #999999;
 }
 
+.footer a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
 .container {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -23,15 +28,14 @@
     color: #999999;
     font-size: 16px;
     line-height: 19px;
-    height: 48px;
+    height: 28px;
     margin-top: 10px;
-    margin-bottom: 10px;
     display: list-item;
     list-style: none;
 }
 .contentInFooter {
     color: #999999;
-    padding: 4px 0;
+    padding: 5px 0;
     font-size: 14px;
     font-weight: 300;
     line-height: 13px;
@@ -41,8 +45,24 @@
     justify-content: center;
 }
 
+.footerMenu {
+    margin-bottom: 15px;
+}
+
+.footerForm {
+    margin-bottom: 15px;
+}
+
+.footerAboutUs {
+    margin-bottom: 15px;
+}
+
+.footerSocialMedia img {
+    width: 160px;
+}
+
 .copyrights {
-    padding-top: 40px;
+    margin-top: 38px;
     text-align: center;
 }
 
