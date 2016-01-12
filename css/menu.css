@@ -86,13 +86,13 @@ ul.navButtons li.active a {
 }
 
 .socialIcon-fb {
-    background-image: url("../IMAGES/fb.svg");
+    background-image: url("../images/fb.svg");
 }
 .socialIcon-twitter {
-    background-image: url("../IMAGES/tw.svg");
+    background-image: url("../images/tw.svg");
 }
 .socialIcon-google {
-    background-image: url("../IMAGES/gg.svg");
+    background-image: url("../images/gg.svg");
 }
 
 .narrowingMenu {
