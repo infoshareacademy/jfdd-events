@@ -4,6 +4,5 @@
 
 $(document).ready(function() {
     $('#my img').last().click(function() {
-        $('.game-intro').
     });
 });
