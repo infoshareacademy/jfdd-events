@@ -6,7 +6,7 @@ $(document).ready(function(){
     var importedClasses =  $(".topNavBar, .topNavBar img, .socialIconsInNavBar, ul.navButtons li");
 
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 460) {
+        if ($(document).scrollTop() > 436) {
             importedClasses.addClass("narrowingMenu");
             importedClasses.removeClass("wideningMenu");
             }

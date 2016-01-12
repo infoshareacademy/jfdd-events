@@ -5,11 +5,35 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+li a {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    line-height: 140%;
+}
+
+
 .clear {
     clear: both;
 }
 
-.kontener {
-    max-width: 1000px;
-    margin: auto;
+
+::selection {
+    background-color: darkgrey;
+    color: #000;
+    text-shadow: 1px 1px #fff9ff;
+}
+a::selection {
+    background-color: bisque;
+    color: #000;
+    text-shadow: 1px 1px #fff9ff;
 }
