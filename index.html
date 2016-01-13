@@ -5,7 +5,7 @@
     <meta name="discription" content="Gdańsk i wydarzenia">
     <meta name="author" content="Krzykum">
     <meta name="keywords" content="Gdańsk, wydarzenia, events, trójmiasto. 3miasto, event, gdansk, kalendarz, calendar">
-    <link rel="icon" href="IMAGES/logo.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="images/logo.png" type="image/png" sizes="16x16">
 
     <title>gdański kalendarz wydarzeń - sport | kultura | rozrywka</title>
 
@@ -16,13 +16,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link href="CSS/stylesheet.css" type="text/css" rel="stylesheet">
-    <link href="CSS/menu.css" type="text/css" rel="stylesheet">
-    <link href="CSS/intro.css" type="text/css" rel="stylesheet">
-    <link href="CSS/events.css" type="text/css" rel="stylesheet">
-    <link href="CSS/form.css" type="text/css" rel="stylesheet">
-    <link href="CSS/aboutUs.css" type="text/css" rel="stylesheet">
-    <link href="CSS/footer.css" type="text/css" rel="stylesheet">
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="css/menu.css" type="text/css" rel="stylesheet">
+    <link href="css/intro.css" type="text/css" rel="stylesheet">
+    <link href="css/events.css" type="text/css" rel="stylesheet">
+    <link href="css/form.css" type="text/css" rel="stylesheet">
+    <link href="css/aboutUs.css" type="text/css" rel="stylesheet">
+    <link href="css/footer.css" type="text/css" rel="stylesheet">
+    <link href="css/calendar.css" type="text/css" rel="stylesheet">
+    <link href="css/game.css" type="text/css" rel="stylesheet">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand logoInNavBar" href="#zajawka"><img src="IMAGES/logo.png"/></a>
+            <a class="navbar-brand logoInNavBar" href="#zajawka"><img src="images/logo.png"/></a>
         </div>
 
         <div class="collapse navbar-collapse navSection" id="bs-example-navbar-collapse-1" style="background-color: #f1f1f1;">
@@ -61,8 +63,8 @@
 
 
 <div id="intro">
-<figure id="zajawka">
-    <div class="animate_right"><p>Aktualne wydarzenia w Gdańsku</p></div>
+<figure id="zajawka" class="animate_right">
+    <p>Aktualne wydarzenia w Gdańsku</p>
 </figure>
 </div>
 
@@ -91,7 +93,7 @@
             <!-- Oferta serwisu.-->
 
         <div class="mainContentFunctions col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-lg-4 ">
-            <img src="./IMAGES/share-01.png" alt="opinions" class="animate">
+            <img src="images/share-01.png" alt="opinions" class="animate">
 
             <h1>Twoje opinie</h1>
 
@@ -99,7 +101,7 @@
         </div>
 
         <div class="mainContentFunctions col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-4 col-lg-4">
-            <img src="./IMAGES/stoper-01.png" alt="stoper" class="animate">
+            <img src="images/stoper-01.png" alt="stoper" class="animate">
 
             <h1>Zawsze na czasie</h1>
 
@@ -107,7 +109,7 @@
         </div>
 
         <div class="mainContentFunctions col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0  col-md-4 col-lg-4">
-            <img src="./IMAGES/podp-01.png" alt="hint" class="animate">
+            <img src="images/podp-01.png" alt="hint" class="animate">
 
             <h1>Hity tygodnia!</h1>
 
@@ -129,7 +131,7 @@
                 <input type="email" required name="mail" placeholder="e-mail"/><br/>
                 <input type="hidden" name="receiver" value="jakub.klos91@gmail.com">
                 <input id="formCheckbox" title="checkbox" type="checkbox" required/><span id="regulationsText">Zapoznałem się oraz akceptuję
-                <span id="regulationsLink"><a href="IMAGES/regulamin.pdf" target="_blank">regulamin</a></span> serwisu.</span><br/>
+                <span id="regulationsLink"><a href="images/regulamin.pdf" target="_blank">regulamin</a></span> serwisu.</span><br/>
                 <input id="formButton" type="submit" value="ZAPISZ SIĘ"/><br/>
             </form>
         </section>
@@ -152,47 +154,161 @@
             <div class="my row">
 
                 <div class="person animate_outside col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3">
-                    <img src="IMAGES/krzysiek.jpg" style="width: 200px; height:200px"/>
+                    <img src="images/krzysiek.jpg" style="width: 200px; height:200px"/>
                     <br>
                     <p>KRZYSIEK</p>
                 </div>
                 <div class="person animate_outside col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3">
-                    <img src="IMAGES/kuba.jpg" style="width: 200px; height:200px"/>
+                    <img src="images/kuba.jpg" style="width: 200px; height:200px"/>
                     <br>
                     <p>KUBA</p>
                 </div>
                 <div class="person animate_outside col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3">
-                    <img src="IMAGES/monika.jpg" style="width: 200px; height:200px"/>
+                    <img src="images/monika.jpg" style="width: 200px; height:200px"/>
                     <br>
                     <p>MONIKA</p>
                 </div>
                 <div class="person animate_outside col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3">
-                    <img src="IMAGES/michal.jpg" style="width: 200px; height:200px"/>
+                    <img src="images/michal.jpg" style="width: 200px; height:200px"/>
                     <br>
                     <p>MICHAŁ</p>
                 </div>
             </div>
     <div class="clear"></div>
-
-
-<footer>
-    <div class="footer">
+<footer class="footer">
+    <div class="container">
+        <div class="rowInFooter row">
+            <div class="footerMenu col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+                <ul>
+                    <li class="headerInFooter"><a href="#event_anchor">Możliwości aplikacji</a></li>
+                    <li class="contentInFooter"><a href="#event_anchor">Twoje opinie</a></li>
+                    <li class="contentInFooter"><a href="#event_anchor">Zawsze na czasie</a></li>
+                    <li class="contentInFooter"><a href="#event_anchor">Hity tygodnia</a></li>
+                </ul>
+            </div>
+            <div class="footerForm col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+                <ul>
+                    <li class="headerInFooter"><a href="#header_anchor">Bądźmy w kontakcie</a></li>
+                    <li class="contentInFooter"><a href="#header_anchor">Zapisz się!</a></li>
+                    <li class="contentInFooter"><a href="images/regulamin.pdf" target="_blank">Regulamin serwisu</a></li>
+                </ul>
+            </div>
+            <div class="footerAboutUs col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+                <ul>
+                    <li class="headerInFooter"><a href="#naglowek_onas">Poznaj nasz zespół</a></li>
+                    <li class="contentInFooter"><a href="https://www.linkedin.com/profile/view?id=AAkAAAn7JFIBhAVHfLRXMJZdgeycvFr10QoDtuk&authType=NAME_SEARCH&authToken=AjsC&locale=pl_PL&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A167453778%2CauthType%3ANAME_SEARCH%2Cidx%3A1-5-5%2CtarId%3A1452610107939%2Ctas%3AkRZYSZTOF%20oLESI" target="_blank">Krzysiek</a></li>
+                    <li class="contentInFooter"><a href="http://pl.linkedin.com/in/klosjakub" target="_blank">Kuba</a></li>
+                    <li class="contentInFooter"><a href="https://www.facebook.com/profile.php?id=100004445347499&fref=ts">Monika</a></li>
+                    <li class="contentInFooter"><a href="https://www.linkedin.com/profile/view?id=AAIAAAygx9MB-_9-2G94Q6ASV17_F0GzF3o6Sfs&trk=nav_responsive_tab_profile" target="_blank">Michał</a></li>
+                </ul>
+            </div>
+            <div class="footerSocialMedia col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+                <ul>
+                    <li class="headerInFooter">Fejsy i Twittery</li>
+                </ul>
+                <div class="socialIconsInFooter">
+                    <a class="socialIconFooter socialIcon-fb" href="https://pl-pl.facebook.com/GdanskStrefa/" target="_blank"></a>
+                    <a class="socialIconFooter socialIcon-twitter" href="https://twitter.com/gdansk" target="_blank"></a>
+                    <a class="socialIconFooter socialIcon-google" href="https://plus.google.com/+gdansk/posts" target="_blank"></a>
+                </div>
+                <img src="images/logoFooter.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+    <div class="copyrights row">
+    <div class="col-sm-10 col-sm-offset-1">
         <p>Copyright &copy; 2015 &frasl; 2016 KRZYKUM TEAM</p>
+    </div>
     </div>
 </footer>
 
 <br/>
 <br/>
 
+<div class="game-intro">
+    <div class="cancel-button"></div>
+    <h1>UDAŁO CI SIĘ ODNALEŹĆ UKRYTĄ GRĘ!!!</h1>
+    <ul>
+        <li>Jeśli chcesz zagrać, kliknij na przycisk "START GRY".</li>
+        <li>Oczywiście możesz zrezygnować z gry klikając na "X";
+            ikona w prawym górnym rogu okna.</li>
+        <li>Celem gry jest jak najszybsze odklikanie pojawiających się
+            na stronie kalendarza ikonek wydarzeń.</li>
+        <li>Wynikiem gry jest uzyskany przez Ciebie czas.</li>
+    </ul>
+    <button class="game-button" type="button">START GRY</button>
+</div>
+
+
+    <div class="pop-up">
+        <div class="month">Luty 2016</div>
+        <div class="gameClose">X</div>
+
+        <div class="gameContent">
+            <ul>
+                <li>Poniedziałek</li>
+                <li id="1">1</li>
+                <li id="2">8 </li>
+                <li id="3">15</li>
+                <li id="4">22</li>
+                <li id="5">29</li>
+            </ul
+            ><ul>
+            <li>Wtorek</li>
+            <li id="6">2</li>
+            <li id="7">9 <img src="images/theatre.png"></li>
+            <li id="8">16</li>
+            <li id="9">23 <img src="images/sport.png"></li>
+        </ul
+        ><ul>
+            <li>Środa</li>
+            <li id="10">3</li>
+            <li id="11">10 <img src="images/concert.png"></li>
+            <li id="12">17</li>
+            <li id="13">24</li>
+        </ul
+        ><ul>
+            <li>Czwartek</li>
+            <li id="14">4</li>
+            <li id="15">11</li>
+            <li id="16">18 <img src="images/theatre.png"></li>
+            <li id="17">25</li>
+        </ul
+        ><ul>
+            <li>Piątek</li>
+            <li id="18">5</li>
+            <li id="19">12</li>
+            <li id="20">19 <img src="images/child.png"></li>
+            <li id="21">26</li>
+        </ul
+        ><ul class="saturday">
+            <li>Sobota</li>
+            <li id="22">6 <img src="images/concert.png"></li>
+            <li id="23">13</li>
+            <li id="24">20</li>
+            <li id="25">27</li>
+        </ul
+        ><ul class="sunday">
+            <li>Niedziela</li>
+            <li id="26">7</li>
+            <li id="27">14</li>
+            <li id="28">21 <img src="images/child.png"></li>
+            <li id="29">28</li>
+        </ul>
+        </div>
+    </div>
+
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="SCRIPTS/scrollSpy.js" type="text/javascript"></script>
-<script src="scrollto.js" type="text/javascript"></script>
-<script src="SCRIPTS/menuHeight.js" type="text/javascript"></script>
-<script src="SCRIPTS/parallax.js" type="text/javascript"></script>
-
-<script src="SCRIPTS/anim_scroll.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="scripts/scrollSpy.js" type="text/javascript"></script>
+<script src="scripts/scrollto.js" type="text/javascript"></script>
+<script src="scripts/menuHeight.js" type="text/javascript"></script>
+<script src="scripts/parallax.js" type="text/javascript"></script>
+<script src="scripts/anim_scroll.js" type="text/javascript"></script>
+<script src="scripts/calendar.js" type="text/javascript"></script>
 
 </body>
 </html>
