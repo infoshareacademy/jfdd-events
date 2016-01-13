@@ -100,7 +100,7 @@ span#regulationsLink a:active {
 
 .animate_outside.viewPort1 {
     animation-name: zoomIn;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 }
 
@@ -110,7 +110,7 @@ span#regulationsLink a:active {
     transform: scale3d(.3, .3, .3);
 }
 
-50% {
+    50% {
 opacity: 1;
 }
 }
