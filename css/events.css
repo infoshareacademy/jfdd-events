@@ -15,11 +15,6 @@
     transition: width 1s, height 1s;
 }
 
-/*.mainContentFunctions img:hover {*/
-    /*height:93%;*/
-    /*width: 93%;*/
-/*}*/
-
 .mainContentFunctions h1 {
     width: 80%;
     margin: auto;
@@ -40,12 +35,12 @@
 
 
 .animate_right {
-    -webkit-animation-name: fadeInRight;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
-@-webkit-keyframes fadeInRight {
+@keyframes fadeInRight {
     from {
         opacity: 0;
         transform: translate3d(20%,0, 0);
@@ -58,15 +53,15 @@
 }
 
 .animate.viewPort {
-    -webkit-animation-name: fadeInUp;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
-@-webkit-keyframes fadeInUp {
+@keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 20%, 0);
     }
 
     to {
