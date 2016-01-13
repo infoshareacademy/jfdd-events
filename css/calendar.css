@@ -1,0 +1,79 @@
+.gameStart {
+    text-decoration: none;
+}
+
+.gameStart:hover {
+    text-decoration: underline;
+}
+
+.gameBackground {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 1000px;
+    background: green;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+.pop-up {
+    display: none;
+    background: white;
+    border: 5px solid cadetblue;
+    position: fixed;
+    top: 30px;
+    margin-left: -400px;
+    left: 50%;
+    width: 800px;
+    height: 300px;
+    z-index: 120;
+}
+
+.gameClose {
+    position: relative;
+    display: none;
+    background: black;
+    cursor: pointer;
+    float: right;
+    margin-top: -30px;
+    padding: 2px 5px 5px 5px;
+    color: white;
+}
+
+.gameContent {
+    padding: 10px;
+}
+
+.gameContent ul {
+    display: inline-block;
+    width: 12%;
+    vertical-align: top;
+}
+
+.gameContent li {
+    height: 40px;
+    border-bottom: solid thin;
+    border-right: solid thin;
+    border-color: black;
+    text-align: left;
+    vertical-align: top;
+    list-style: none;
+}
+
+.saturday {
+    color: blue;
+}
+
+.sunday {
+    color: red;
+}
+
+.gameContent li:first-child {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.gameContent li img{
+    height: 70%;
+}
