@@ -8,7 +8,7 @@
     background-color: #9e9e9e;
 }
 
-.game-intro > H1 {
+.game-intro > h1 {
     color: #f1f1f1;
     font-weight: 900;
     text-align: center;
@@ -16,7 +16,7 @@
 
 .game-intro li {
     color: #e2e2e2;
-    font-size: x-large;
+    font-size: large;
     font-weight: 500;
     margin-left: 200px;
     line-height: 250%;
@@ -51,14 +51,4 @@
     padding-right: 30px;
     margin: auto;
     display: block;
-}
-
-.game-board {
-    position: fixed;
-    display: none;
-    top: 170px;
-    left: 100px;
-    bottom: 100px;
-    right: 100px;
-    background-color: #9e9e9e;
 }

@@ -3,12 +3,16 @@
  */
 $(document).ready(function() {
 
-    $(".gameStart").click(function () {
-        $(".gameBackground").fadeIn(500, function () {
-            $(".pop-up").show(1000);
-            $(".gameClose").show();
-
-        });
+    $('.my img').last().click(function () {
+        $('.game-intro').css("display", "block");
+    });
+    $('.cancel-button').click(function () {
+        $('.game-intro').css("display", "none");
+    });
+    $('.game-button').click(function () {
+        $('.game-intro').css("display", "none");
+        $(".pop-up").show(1000);
+        $(".gameClose").show();
     });
     $(".gameClose").click(function () {
         $(".gameClose").hide();
@@ -23,10 +27,3 @@ $(document).ready(function() {
         });
     });
 });
-
-////losowanie liczby z zakresu 1-29
-//var x=1+Math.floor(Math.random()*15)
-//
-//for(x=1; x<=29; x++){
-//    console.log(x)
-//}
