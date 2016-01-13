@@ -1,10 +1,87 @@
 .footer {
-    border-top: 2px solid #3a3a3a;
-    margin: 140px auto 0;
-    padding-bottom: 80px;
-    color: #e2e2e2;
+    margin-top: 60px;
+    border-top: 2px solid #e7e7e7;
+    padding-bottom: 30px;
+    color: #999999;
     font-size: 12px;
+    text-align: left;
+    background-color: #F1F1F1;
+}
+.footer a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.footer a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    max-width: 800px;
+}
+
+.headerInFooter {
+    font-weight: 400;
+    color: #999999;
+    font-size: 16px;
+    line-height: 19px;
+    height: 28px;
+    margin-top: 10px;
+    display: list-item;
+    list-style: none;
+}
+.contentInFooter {
+    color: #999999;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 13px;
+    box-sizing: border-box;
+    display: list-item;
+    list-style: none;
+    justify-content: center;
+}
+
+.footerMenu {
+    margin-bottom: 15px;
+}
+
+.footerForm {
+    margin-bottom: 15px;
+}
+
+.footerAboutUs {
+    margin-bottom: 15px;
+}
+
+.footerSocialMedia img {
+    width: 160px;
+}
+
+.copyrights {
+    margin-top: 38px;
     text-align: center;
-    background-color: #535353;
-    height: 150px
+}
+
+.socialIconsInFooter {
+    width: 200px;
+}
+
+.socialIconFooter {
+    height: 36px;
+    width: 36px;
+    transition: background-size 0.3s;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.socialIconFooter:hover {
+    background-size: 36px 36px;
 }
