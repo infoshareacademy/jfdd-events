@@ -1,58 +1,50 @@
 .game-intro  {
     position: fixed;
     display: none;
-    top: 170px;
-    left: 200px;
-    bottom: auto;
-    right: 200px;
+    top: 30px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
     background-color: #1b1a2d;
     opacity: 0.95;
+
 }
 
 .game-intro > h1 {
     color: #FAFAFA;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     font-size: x-large;
     margin-bottom: 40px;
+    margin-top: 250px;
 }
 
 .game-intro li {
     color: #fafafa;
     font-size: medium;
-    font-weight: 400;
-    margin-left: 200px;
+    font-weight: 300;
+    justify-content: center;
     line-height: 250%;
+    text-align: center;
 }
 
 .cancel-button {
-    background-image: url("../images/cancel.svg");
+    background-image: url("../images/new/cancel.svg");
     color: #FAFAFA;
     position: absolute;
     display: block;
-    right: 10px;
-    top: 10px;
-    height:55px;
-    width:55px;
-    background-size: 50px 50px;
+    right: 20px;
+    top: 20px;
+    height:35px;
+    width:35px;
+    background-size: 30px 30px;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-/*height: 36px;*/
-/*width: 100px;*/
-/*margin: 18px auto 0;*/
-/*font-size: 1em;*/
-/*font-weight: 500;*/
-/*color: black;*/
-/*border: 2px solid black; !* grey *!*/
-/*border-radius: 5px;*/
-/*z-index: 10;*/
-/*background-color: #f1f1f1;*/
-/*transition: background-color 0.5s, color 0.5s;*/
 
 .cancel-button:hover {
-    background-size: 55px 55px;
+    background-size: 35px 35px;
     cursor: pointer;
 }
 
