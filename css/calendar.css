@@ -3,7 +3,7 @@
     background: white;
     border: 5px solid cadetblue;
     position: fixed;
-    top: 30px;
+    top: 80px;
     margin-left: -400px;
     left: 50%;
     width: 800px;
@@ -12,14 +12,21 @@
 }
 
 .gameClose {
-    position: relative;
-    display: none;
-    background: black;
+    background-image: url("../images/cancel.svg");
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+    height:45px;
+    width:45px;
+    background-size: 40px 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.gameClose:hover {
+    background-size: 45px 45px;
     cursor: pointer;
-    float: right;
-    margin-top: -30px;
-    padding: 2px 5px 5px 5px;
-    color: white;
 }
 
 .gameContent {
@@ -57,4 +64,15 @@
 
 .gameContent li img{
     height: 70%;
+}
+
+.timer {
+    position: fixed;
+    display: inline-block;
+    width: 200px;
+    font-size: large;
+    text-align: center;
+    background-color: #9e9e9e;
+    color: #fbfdff;
+
 }
