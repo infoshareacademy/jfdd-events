@@ -26,6 +26,14 @@ h1, p {
     clear: both;
 }
 
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
 
 ::selection {
     background-color: darkgrey;
