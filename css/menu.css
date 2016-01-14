@@ -20,7 +20,6 @@
 
 
 .logoInNavBar img {
-    float: left;
     height: 43px;
     animation-name: rotate;
     animation-duration: 1.5s;
@@ -37,8 +36,7 @@
 }
 
 ul.navButtons {
-    float:left;
-    margin-left: 20px;
+    margin: auto;
 }
 
 ul.navButtons li {
@@ -64,10 +62,9 @@ ul.navButtons li.active a {
     background-color: transparent;
 }
 
-
-
 .socialIconsInNavBar {
-    float: right;
+    display: inline-block;
+    padding-right: 20px;
 }
 
 .socialIcon {
@@ -75,7 +72,7 @@ ul.navButtons li.active a {
     width: 36px;
     transition: background-size 0.3s;
     display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 18px;
     background-size: 30px 30px;
     background-position: center center;
@@ -92,10 +89,6 @@ ul.navButtons li.active a {
 .socialIcon-twitter {
     background-image: url("../images/tw.svg");}
 
-.narrowingMenu {
-    height: 50px;
-    margin-top: -8px;
-}
 .socialIcon-google {
     background-image: url("../images/gg.svg");
 }
@@ -113,13 +106,10 @@ ul.navButtons li.active a {
     transition: height 0.5s ease, margin-top 0.5s ease, padding-top 0.5s ease;
 }
 
-#formButtonInMenu {
-    position: static;
-    margin-top: 18px;
-    margin-left: 25px;
-    float: right;
+.formButtonInMenu button {
     height: 36px;
     width: 100px;
+    margin: 18px auto 0;
     font-size: 1em;
     font-weight: 500;
     color: black;
@@ -127,5 +117,10 @@ ul.navButtons li.active a {
     border-radius: 5px;
     z-index: 10;
     background-color: #f1f1f1;
-    clear: both;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.formButtonInMenu button:hover {
+    background-color: black;
+    color: white;
 }

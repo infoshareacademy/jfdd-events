@@ -3,7 +3,7 @@
  */
 $(document).ready(function(){
 
-    var importedClasses =  $(".topNavBar, .topNavBar img, .socialIconsInNavBar, ul.navButtons li");
+    var importedClasses =  $(".topNavBar, .topNavBar img, .socialIconsInNavBar, ul.navButtons li, .formButtonInMenu");
 
     $(window).scroll(function() {
         if ($(document).scrollTop() > 436) {
