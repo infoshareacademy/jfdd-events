@@ -8,7 +8,7 @@
     left: 50%;
     width: 800px;
     height: 300px;
-    z-index: 5000;
+    z-index: 500;
 }
 
 .gameClose {
@@ -66,13 +66,33 @@
     height: 70%;
 }
 
+.month {
+    text-align: center;
+    font-weight: bolder;
+}
+
 .timer {
-    position: fixed;
-    display: inline-block;
-    width: 200px;
+    position: absolute;
+    display: block;
+    right: 7px;
+    bottom: 7px;
     font-size: large;
     text-align: center;
-    background-color: #9e9e9e;
+    background-color: cadetblue;
     color: #fbfdff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
 
+.game-over {
+    position: absolute;
+    display: none;
+    right: 300px;
+    bottom: 7px;
+    font-size: large;
+    text-align: center;
+    background-color: cadetblue;
+    color: #fbfdff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
 }

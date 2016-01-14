@@ -4,6 +4,7 @@
 $(document).ready(function() {
     var intervalNumber;
     var numberOfIcons;
+    var displayTime;
     var icons=["child.png", "cinema.png", "concert.png", "sport.png", "theatre.png", "child.png", "cinema.png", "concert.png", "sport.png", "theatre.png"];
 
     $('.my img').last().click(function () {
@@ -33,12 +34,11 @@ $(document).ready(function() {
             var minute = Math.floor((totalSeconds - hour*3600)/60);
             var seconds = totalSeconds - (hour*3600 + minute*60);
 
-            $('.timer').html("Twój wynik: " + hour + ":" + minute + ":" + seconds);
+            $('.timer').html("Twój czas: " + hour + " h " + ": " + minute + " m " + ": " + seconds + " s ");
         }
     });
 
     $(".gameClose").click(function () {
-        $(".gameClose").hide();
         $(".pop-up").hide(500);
     });
 
@@ -48,6 +48,7 @@ $(document).ready(function() {
         $(this).hide();
         if(numberOfIcons === 0) {
             clearInterval(intervalNumber);
+            $('.game-over').show();
         }
     });
    });
@@ -61,6 +62,6 @@ function getDays(){
         days.push(day);
     }
    }
-    return days
+    return days;
 }
 
