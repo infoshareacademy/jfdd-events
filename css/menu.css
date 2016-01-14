@@ -20,7 +20,6 @@
 
 
 .logoInNavBar img {
-    float: left;
     height: 43px;
     animation-name: rotate;
     animation-duration: 1.5s;
@@ -37,8 +36,7 @@
 }
 
 ul.navButtons {
-    float:left;
-    margin-left: 20px;
+    margin: auto;
 }
 
 ul.navButtons li {
@@ -64,10 +62,9 @@ ul.navButtons li.active a {
     background-color: transparent;
 }
 
-
-
 .socialIconsInNavBar {
-    float: right;
+    display: inline-block;
+    margin: auto;
 }
 
 .socialIcon {
@@ -114,12 +111,11 @@ ul.navButtons li.active a {
 }
 
 #formButtonInMenu {
-    position: static;
-    margin-top: 18px;
-    margin-left: 25px;
-    float: right;
     height: 36px;
     width: 100px;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 25px;
     font-size: 1em;
     font-weight: 500;
     color: black;
@@ -127,5 +123,11 @@ ul.navButtons li.active a {
     border-radius: 5px;
     z-index: 10;
     background-color: #f1f1f1;
-    clear: both;
+    transition: background-color 0.5s, color 0.5s;
+    vertical-align: baseline;
+}
+
+#formButtonInMenu:hover {
+    background-color: black;
+    color: white;
 }
