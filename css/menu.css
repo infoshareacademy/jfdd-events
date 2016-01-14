@@ -90,7 +90,11 @@ ul.navButtons li.active a {
     background-image: url("../images/fb.svg");
 }
 .socialIcon-twitter {
-    background-image: url("../images/tw.svg");
+    background-image: url("../images/tw.svg");}
+
+.narrowingMenu {
+    height: 50px;
+    margin-top: -8px;
 }
 .socialIcon-google {
     background-image: url("../images/gg.svg");
@@ -107,4 +111,21 @@ ul.navButtons li.active a {
     margin-top: 0;
     padding-top: 0;
     transition: height 0.5s ease, margin-top 0.5s ease, padding-top 0.5s ease;
+}
+
+#formButtonInMenu {
+    position: static;
+    margin-top: 18px;
+    margin-left: 25px;
+    float: right;
+    height: 36px;
+    width: 100px;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    border: 2px solid black; /* grey */
+    border-radius: 5px;
+    z-index: 10;
+    background-color: #f1f1f1;
+    clear: both;
 }
