@@ -14,6 +14,15 @@
     width: 80%;
     transition: width 1s, height 1s;
 }
+.mainContentFunctions img:hover {
+    cursor: pointer;
+    height: 175px;
+    width: 175px;
+}
+/*.imgSmall {*/
+    /*width: 40%;*/
+    /*transition: width 1s, height 1s;*/
+/*}*/
 
 .mainContentFunctions h1 {
     width: 80%;
@@ -21,15 +30,17 @@
     font-size: x-large;
     padding-top: 4%;
     padding-bottom: 2%;
-    font-weight:500;
+    font-weight: 400;
 }
-
+.mainContentFunctions span {
+    font-weight: 600;
+}
 .mainContentFunctions p {
     width: 80%;
     margin: auto;
     font-size: large;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 
