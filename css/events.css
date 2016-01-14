@@ -45,23 +45,27 @@
     text-align: center;
     vertical-align: top;
     font-size: smaller;
+    position: static;
+    height: 300px;
 }
 
 .lowerContentFunctions img {
-    width: 80%;
-    transition: width 1s, height 1s;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding-top: 5px;
+    transition:  height 0.25s, width 0.25s;
 }
 .lowerContentFunctions img:hover {
-    cursor: pointer;
-    height: 175px;
-    width: 175px;
+    width: 155px;
+    height: 155px;
 }
 
 .lowerContentFunctions h1 {
     width: 80%;
     margin: auto;
+    margin-top: 10px;
     font-size: medium;
-    padding-top: 4%;
     padding-bottom: 2%;
     font-weight: 600;
 }
@@ -74,7 +78,12 @@
     font-size: larger;
     text-align: center;
     font-weight:400;
-    padding-bottom: 20px;
+}
+.wrapper {
+    padding-top: 5px;
+    height: 160px;
+    width: 180px;
+    margin: auto;
 }
 
 
