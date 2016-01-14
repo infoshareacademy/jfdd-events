@@ -19,10 +19,6 @@
     height: 175px;
     width: 175px;
 }
-/*.imgSmall {*/
-    /*width: 40%;*/
-    /*transition: width 1s, height 1s;*/
-/*}*/
 
 .mainContentFunctions h1 {
     width: 80%;
@@ -41,6 +37,43 @@
     font-size: large;
     text-align: center;
     font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.lowerContentFunctions {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-size: smaller;
+}
+
+.lowerContentFunctions img {
+    width: 80%;
+    transition: width 1s, height 1s;
+}
+.lowerContentFunctions img:hover {
+    cursor: pointer;
+    height: 175px;
+    width: 175px;
+}
+
+.lowerContentFunctions h1 {
+    width: 80%;
+    margin: auto;
+    font-size: medium;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+.lowerContentFunctions span {
+    font-weight: 400;
+}
+.lowerContentFunctions p {
+    width: 80%;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+    font-weight:400;
     padding-bottom: 20px;
 }
 
