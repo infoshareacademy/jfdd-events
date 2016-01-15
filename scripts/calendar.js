@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
     $('.game-button').click(function () {
         $('.game-intro').css("display", "none");
-        $(".pop-up").show(1000);
+        $(".pop-up").fadeIn(1000);
         $(".gameClose").show();
         var days=getDays();
         for (i=0; i<days.length; i++){
@@ -39,7 +39,7 @@ $(document).ready(function() {
     });
 
     $(".gameClose").click(function () {
-        $(".pop-up").hide(500);
+        $(".pop-up").fadeOut(500);
     });
 
     /* handler for hiding icons in calendar  */
