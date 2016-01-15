@@ -38,11 +38,12 @@
 
 .gameContent ul {
     display: inline-block;
+    vertical-align: top;
     width: 12%;
 
 }
 
-.gameContent li {
+.gameContent ul li {
     height: 40px;
     border: solid thin;
     border-color: #fafafa;
@@ -65,10 +66,12 @@
     text-align: center;
 }
 
-.gameContent li img{
-    height: 95%;
-    vertical-align: middle;
+.gameContent ul li img {
+    height: 90%;
+    display: inline-block;
     margin: auto;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .month {
