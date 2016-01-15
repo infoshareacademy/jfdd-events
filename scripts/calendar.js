@@ -5,7 +5,7 @@ $(document).ready(function() {
     var intervalNumber;
     var numberOfIcons;
     var displayTime;
-    var icons=["child.png", "cinema.png", "concert.png", "sport.png", "theatre.png", "child.png", "cinema.png", "concert.png", "sport.png", "theatre.png"];
+    var icons=["white-kosz.png", "white-mic .png", "white-popcorn.png", "white-share.png", "white-tel.png", "white-kosz.png", "white-mic .png", "white-popcorn.png", "white-share.png", "white-tel.png"];
 
     $('.my img').last().click(function () {
         $('.game-intro').css("display", "block");
@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(".gameClose").show();
         var days=getDays();
         for (i=0; i<days.length; i++){
-            $("#"+days[i]).attr("src","images/"+icons[i]);
+            $("#"+days[i]).attr("src","images/new/"+icons[i]);
             $("#"+days[i]).show();
         }
         numberOfIcons = icons.length;

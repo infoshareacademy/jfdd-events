@@ -48,7 +48,6 @@
     border-color: #fafafa;
     text-align: left;
     padding-left: 5px;
-    vertical-align: middle;
     list-style: none;
 }
 
@@ -64,11 +63,12 @@
 
 .gameContent li:first-child {
     text-align: center;
-    vertical-align: bottom;
 }
 
 .gameContent li img{
-    height: 70%;
+    height: 95%;
+    vertical-align: middle;
+    margin: auto;
 }
 
 .month {
@@ -105,11 +105,5 @@
     margin: auto;
     margin-top: 40px;
     vertical-align: middle;
-    padding-top: 5px;
+    padding-top: 7px;
 }
-/*font-size:1em;*/
-/*height:36px;*/
-/*border-radius: 5px;*/
-/*border: 2px solid white;*/
-/*background-color: #1b1a2d;*/
-/*text-align: center;*/
