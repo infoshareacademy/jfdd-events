@@ -1,22 +1,21 @@
 .pop-up {
-    display: none;
-    background: white;
-    border: 5px solid cadetblue;
     position: fixed;
-    top: 80px;
-    margin-left: -400px;
-    left: 50%;
-    width: 800px;
-    height: 300px;
+    display: none;
+    background-color: #1b1a2d;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.98;
     z-index: 500;
 }
 
 .gameClose {
-    background-image: url("../images/cancel.svg");
+    background-image: url("../images/new/cancel.svg");
     position: absolute;
     display: block;
-    right: 10px;
-    top: 10px;
+    right: 20px;
+    top: 20px;
     height:45px;
     width:45px;
     background-size: 40px 40px;
@@ -30,31 +29,37 @@
 }
 
 .gameContent {
-    padding: 10px;
+
+    color: #FAFAFA;
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
 }
 
 .gameContent ul {
     display: inline-block;
     width: 12%;
-    vertical-align: top;
+
 }
 
 .gameContent li {
     height: 40px;
-    border-bottom: solid thin;
-    border-right: solid thin;
-    border-color: black;
+    border: solid thin;
+    border-color: #fafafa;
     text-align: left;
-    vertical-align: top;
+    padding-left: 5px;
+    vertical-align: middle;
     list-style: none;
 }
 
 .saturday {
-    color: blue;
+    color: #2e25ca;
+    font-weight: 900;
 }
 
 .sunday {
-    color: red;
+    color: #b43a3b;
+    font-weight: 900;
 }
 
 .gameContent li:first-child {
@@ -69,30 +74,42 @@
 .month {
     text-align: center;
     font-weight: bolder;
+    color: #FAFAFA;
+    margin-top: 200px;
 }
 
 .timer {
-    position: absolute;
-    display: block;
-    right: 7px;
-    bottom: 7px;
     font-size: large;
-    text-align: center;
-    background-color: cadetblue;
+    font-weight: 300;
+    background-color: #1b1a2d;
     color: #fbfdff;
-    padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    border-color: #fafafa;
+    margin-top: 40px;
+    text-align: center;
 }
 
+
 .game-over {
-    position: absolute;
     display: none;
-    right: 300px;
-    bottom: 7px;
-    font-size: large;
-    text-align: center;
-    background-color: cadetblue;
+    width: 150px;
+    height: 36px;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: #1b1a2d;
     color: #fbfdff;
-    padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    vertical-align: middle;
+    padding-top: 5px;
 }
+/*font-size:1em;*/
+/*height:36px;*/
+/*border-radius: 5px;*/
+/*border: 2px solid white;*/
+/*background-color: #1b1a2d;*/
+/*text-align: center;*/
