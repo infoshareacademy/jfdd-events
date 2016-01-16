@@ -104,11 +104,30 @@ span#regulationsLink a:active {
     from {
     opacity: 0;
     transform: scale3d(.3, .3, .3);
-}
-
-    50% {
+} 50% {
 opacity: 1;
-}
+}}
+
+#validateName {
+    color: red;
+    padding-top: 5px;
+    font-size: 1.2em;
 }
 
+#validateNumber {
+    color: red;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
 
+#validateEmail {
+    color: red;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
+
+#validateCheckbox {
+    color:red;
+    padding-top: 5px;
+    font-size: 1.2em;
+}
