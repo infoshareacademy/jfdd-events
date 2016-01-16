@@ -178,14 +178,18 @@
 
 
     <section class="animate">
-        <form action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post">
-            <input type="text" required name="firstname" placeholder="imię"/><br/>
-            <input type="number" required name="phone" placeholder="numer telefonu"/><br/>
-            <input type="email" required name="mail" placeholder="e-mail"/><br/>
+        <form name="myForm" action="http://jfdd.infoshareaca.nazwa.pl/mailer.php" method="post" onsubmit="return validateForm()">
+            <input type="text" id="firstName" name="firstName" placeholder="imię" /><br/>
+            <div id="validateName"></div>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="numer telefonu" /><br/>
+            <div id="validateNumber"></div>
+            <input type="email" id="Email" name="Email" placeholder="e-mail" /><br/>
+            <div id="validateEmail"></div>
             <input type="hidden" name="receiver" value="jakub.klos91@gmail.com">
-            <input id="formCheckbox" title="checkbox" type="checkbox" required/><span id="regulationsText">Zapoznałem się oraz akceptuję
+            <input id="formCheckbox" title="checkbox" type="checkbox" checked/><span id="regulationsText">Zapoznałem się oraz akceptuję
                 <span id="regulationsLink"><a href="images/regulamin.pdf" target="_blank">regulamin</a></span> serwisu.</span><br/>
-            <input id="formButton" type="submit" value="ZAPISZ SIĘ"/><br/>
+            <div id="validateCheckbox"></div>
+            <input id="formButton" name="formButton" type="submit" value="ZAPISZ SIĘ"/><br/>
         </form>
     </section>
     <div class="clear"></div>
@@ -378,6 +382,7 @@
 <script src="scripts/parallax.js" type="text/javascript"></script>
 <script src="scripts/anim_scroll.js" type="text/javascript"></script>
 <script src="scripts/calendar.js" type="text/javascript"></script>
+<script src="scripts/validateForm.js" type="text/javascript"></script>
 
 </body>
 </html>
