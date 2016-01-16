@@ -111,23 +111,30 @@ opacity: 1;
 #validateName {
     color: red;
     padding-top: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
 }
 
 #validateNumber {
     color: red;
     padding-top: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+
 }
 
 #validateEmail {
     color: red;
     padding-top: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+
 }
 
 #validateCheckbox {
     color:red;
     padding-top: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+
 }

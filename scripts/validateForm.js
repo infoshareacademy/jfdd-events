@@ -5,7 +5,7 @@ var checkbox = document.myForm;
 
 
 function validateForm() {
-    if(firstName.value == "") {
+    if(firstName.value == "" || !isNaN(firstName.value) ) {
         document.getElementById("validateName").innerHTML = "Uzupełnij swoje imię!";
         firstName.focus();
         return false;
@@ -13,7 +13,7 @@ function validateForm() {
             document.getElementById("validateName").innerHTML = "";
     }
 
-    if(phoneNumber.value.length < 9  ||  phoneNumber.value.length >= 14) {
+    if(phoneNumber.value.length < 9  ||  phoneNumber.value.length >= 14  || isNaN(phoneNumber.value)) {
         document.getElementById("validateNumber").innerHTML = "Podaj poprawny numer telefonu!";
         phoneNumber.focus();
         return false;
