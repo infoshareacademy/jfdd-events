@@ -49,8 +49,8 @@
 }
 
 .game-button {
-    font-size:1em;
-    height:36px;
+    font-size: 1em;
+    height: 36px;
     border-radius: 5px;
     border: 2px solid white;
     background-color: #1b1a2d;
@@ -63,4 +63,15 @@
     margin-bottom: 60px;
     display: block;
     color: #FAFAFA;
- }
+}
+
+@keyframes animation {
+    from { transform:scale(100.100) ;}
+    to { transform:scale(1.1) ;}
+}
+
+.gameIcon {
+    animation-name: animation;
+    animation-duration: 0.5s ;
+    animation-timing-function: ease-out;
+}

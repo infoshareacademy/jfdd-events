@@ -32,7 +32,7 @@ $(document).ready(function() {
     $('.game-button').click(function (){
         intervalNumber = setInterval(countTimer, 1000);
         var totalSeconds = 0;
-        if (visibleIcons === 0) return;     /* game is over, timer stopped */
+        if (visibleIcons === 0)      /* game is over, timer stopped */
         function countTimer() {
             ++totalSeconds;
             var hour = Math.floor(totalSeconds /3600);
@@ -42,6 +42,7 @@ $(document).ready(function() {
             //$('.timer').html(hour +  minute + seconds);
         }
     });
+
 
     $(".gameClose, .game-over").click(function () {
         /* clean up and hide game window */
