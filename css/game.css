@@ -49,8 +49,8 @@
 }
 
 .game-button {
-    font-size: 1em;
-    height: 36px;
+    font-size:1.5em;
+    height:56px;
     border-radius: 5px;
     border: 2px solid white;
     background-color: #1b1a2d;
@@ -63,7 +63,7 @@
     margin-bottom: 60px;
     display: block;
     color: #FAFAFA;
-}
+ }
 
 @keyframes animation {
     from { transform:scale(100.100) ;}

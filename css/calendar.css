@@ -71,10 +71,10 @@
 
 .gameContent ul li img {
     height: 90%;
-    display: inline-block;
     margin: auto;
     text-align: center;
-    margin-left: 50px;
+    float: right;
+    padding-top: 3px;
 }
 
 .month {
@@ -100,8 +100,8 @@
 .game-over {
     display: none;
     width: 150px;
-    height: 36px;
-    font-size: 1em;
+    height: 56px;
+    font-size: 1.5em;
     font-weight: 300;
     background-color: #1b1a2d;
     color: #fbfdff;
@@ -112,5 +112,6 @@
     margin: auto;
     margin-top: 40px;
     vertical-align: middle;
-    padding-top: 7px;
+    padding-top: 10px;
+    cursor: pointer;
 }

@@ -4,8 +4,8 @@
 $(document).ready(function() {
     var intervalNumber;
     var displayTime;
-    var icons=["white-kosz.png", "white-mic .png", "white-popcorn.png", "white-share.png", "white-tel.png",
-        "white-kosz.png", "white-mic .png", "white-popcorn.png", "white-share.png", "white-tel.png"];
+    var icons=["white-kosz.png", "white-mic.png", "white-popcorn.png", "white-share.png", "white-tel.png",
+        "white-kosz.png", "white-mic.png", "white-popcorn.png", "white-share.png", "white-tel.png"];
     var visibleIcons;   /* number of visible icons */
 
     $('.my img').last().click(function () {
@@ -35,10 +35,9 @@ $(document).ready(function() {
         if (visibleIcons === 0)      /* game is over, timer stopped */
         function countTimer() {
             ++totalSeconds;
-            var hour = Math.floor(totalSeconds /3600);
-            var minute = Math.floor((totalSeconds - hour*3600)/60);
-            var seconds = totalSeconds - (hour*3600 + minute*60);
-            $('.timer').html("Twój czas: " + hour + " h " + ": " + minute + " m " + ": " + seconds + " s ");
+            var minute = Math.floor(totalSeconds/60);
+            var seconds = totalSeconds - minute*60;
+            $('.timer').html("Twój czas: " + minute + " m " + ": " + seconds + " s ");
             //$('.timer').html(hour +  minute + seconds);
         }
     });
