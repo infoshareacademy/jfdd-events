@@ -64,3 +64,14 @@
     display: block;
     color: #FAFAFA;
  }
+
+@keyframes animation {
+    from { transform:scale(100.100) ;}
+    to { transform:scale(1.1) ;}
+}
+
+.gameIcon {
+    animation-name: animation;
+    animation-duration: 0.5s ;
+    animation-timing-function: ease-out;
+}
