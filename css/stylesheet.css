@@ -1,7 +1,9 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
-    background-color: #fbfdff;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
 }
 

@@ -42,13 +42,13 @@ input {
     width: 300px;
     font-size: 1.5em;
     font-weight: 500;
-    background-color: #212891; /* yellow */
+    background-color: #1b1a2d;
+    opacity: 0.95;
     color: white;
     border: 1px solid #535353; /* grey */
     border-radius: 5px;
     z-index: 10;
-    opacity: 0.8;
-    transition: 3550ms;
+    transition: 2550ms;
 }
 
 
