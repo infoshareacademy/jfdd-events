@@ -30,8 +30,6 @@
     font-size: 1.4em;
     color: #535353; /* light grey */
     text-align: justify;
-    padding-top: 30px;
-    padding-bottom: 50px;
     margin: auto;
     font-weight: 500;
 }
@@ -43,4 +41,5 @@
     margin: auto;
     font-weight: 500;
     padding-top: 90px;
+    padding-bottom: 40px;
 }

@@ -8,6 +8,7 @@
     display: inline-block;
     text-align: center;
     vertical-align: top;
+    margin-top: 10px;
 }
 
 .mainContentFunctions img {
@@ -88,11 +89,6 @@
 }
 
 
-.animate_right {
-    animation-name: fadeInRight;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-}
 
 @keyframes fadeInRight {
     from {

@@ -11,8 +11,8 @@
 
 #naglowek_onas p {
     margin-bottom: 0;
-    padding-bottom: 0;
-    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
 }
 
 #opisNas p {
@@ -20,7 +20,8 @@
     color: #535353; /* light grey */
     font-weight: 500;
     text-align: justify;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .my {
