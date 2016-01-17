@@ -55,7 +55,7 @@ $(document).ready(function() {
     /* handler for hiding icons in calendar  */
     $(".gameIcon").click(function () {
         visibleIcons -= 1;
-        $(this).hide();
+        $(this).fadeOut(500);
         if(visibleIcons === 0) {
             clearInterval(intervalNumber);
             $('.game-over').show();
