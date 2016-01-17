@@ -8,10 +8,10 @@
     container.setAttribute('id', 'cookieinfo');
     container.setAttribute('class', 'cookie-alert');
     container.innerHTML =
-        '<div class="row"><h6 class="col-xs-12 col-sm-12 col-md-4 col-lg-4">Ta strona wykorzystuje pliki cookie</h6><p class="col-xs-12 col-sm-12 col-md-7' +
-        ' col-lg-8">Używamy informacji zapisanych za pomocą plików cookies. Jeżeli wyrażasz zgodę na zapisywanie informacji zawartej w cookies ' +
-        'kliknij na &bdquo;x&rdquo; w prawym górnym rogu tej informacji. Jeśli nie wyrażasz zgody, ustawienia dotyczące ' +
-        'plików cookies możesz zmienić w swojej przeglądarce.</p></div>';
+        '<div class="row"><h6 class="col-xs-12 col-sm-12 col-md-4 col-lg-4">Ta strona wykorzystuje pliki cookies</h6><p class="col-xs-12 col-sm-12 col-md-7' +
+        ' col-lg-8">Używamy informacji zapisanych za pomocą plików cookies. Jeżeli wyrażasz zgodę na zapisywanie informacji zawartej w cookies, ' +
+        'kliknij na &bdquo;x&rdquo; w prawym górnym rogu tej informacji. Jeśli teraz nie wyrażasz zgody, ustawienia dotyczące ' +
+        'plików cookies możesz zmienić w swojej przeglądarce później.</p></div>';
 
     link.setAttribute('href', '#');
     link.setAttribute('title', 'Zamknij');
