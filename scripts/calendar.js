@@ -2,6 +2,7 @@
  * Created by monika on 13.01.16.
  */
 $(document).ready(function() {
+    var iconTimeouts = [];
     var intervalNumber;
     var displayTime;
     var icons=["white-kosz.png", "white-mic.png", "white-popcorn.png", "white-share.png", "white-tel.png",
@@ -21,9 +22,11 @@ $(document).ready(function() {
         $(".gameClose").show();
         var days=getDays();
         for (i=0; i < days.length; i++){
-            $("#"+days[i]).attr("src", "images/new/"+icons[i]);
-            $("#"+days[i]).show();
-            visibleIcons += 1;
+            iconTimeouts.push(setTimeout(function (i) {
+                $("#"+days[i]).attr("src", "images/new/"+icons[i]);
+                $("#"+days[i]).show();
+                visibleIcons += 1;
+            }, i * 100, i));
         }
 
     });
@@ -38,7 +41,6 @@ $(document).ready(function() {
             var minute = Math.floor(totalSeconds/60);
             var seconds = totalSeconds - minute*60;
             $('.timer').html("Twój czas: " + minute + " m " + ": " + seconds + " s ");
-            //$('.timer').html(hour +  minute + seconds);
         }
     });
 
@@ -48,6 +50,10 @@ $(document).ready(function() {
         $('.game-over').hide();
         $('.gameIcon').hide();
         clearInterval(intervalNumber);
+        iconTimeouts.forEach(function (timeoutId) {
+            clearTimeout(timeoutId);
+        });
+
         $('.timer').html("");
         $(".pop-up").fadeOut(500);
     });
