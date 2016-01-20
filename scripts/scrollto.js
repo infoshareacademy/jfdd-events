@@ -11,33 +11,33 @@ $(function () {
     $("a[href='#naglowek_onas']").click(function() {
         debugger;
         var offset = $("#naglowek_onas").offset().top;
-        $('html,body').animate({
+        $('html,body').stop().animate({
             scrollTop: offset
-        }, 'slow');
+        }, 1000);
         return false;
     });
     $("a[href='#header_anchor']").click(function() {
         debugger;
         var offset = $("#header_anchor").offset().top;
-        $('html,body').animate({
+        $('html,body').stop().animate({
             scrollTop: offset
-        }, 'slow');
+        }, 1000);
         return false;
     });
     $("a[href='#event_anchor']").click(function() {
         debugger;
         var offset = $("#event_anchor").offset().top;
-        $('html,body').animate({
+        $('html,body').stop().animate({
             scrollTop: offset
-        }, 'slow');
+        }, 1000);
         return false;
     });
     $("a[href='#zajawka']").click(function() {
         debugger;
         var offset = $("#zajawka").offset().top;
-        $('html,body').animate({
+        $('html,body').stop().animate({
             scrollTop: 0
-        }, 'slow');
+        }, 1000);
         return false;
     });
 });
