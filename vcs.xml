@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/k-olesinski/test.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-rwd.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\koles\WebstormProjects\jfdd-events" />
