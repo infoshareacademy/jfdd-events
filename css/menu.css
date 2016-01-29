@@ -139,3 +139,7 @@ ul.navButtons li.active a {
     background-color: black;
     color: white;
 }
+
+.logInButtonInNavBar {
+    cursor: pointer;
+}
