@@ -26,6 +26,26 @@
           <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-rwd.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-dyrektywy.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-admin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-angular.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-angular-pres.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/infoshareacademy/jfdd-materialy-wzorce.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\koles\WebstormProjects\jfdd-events" />
